@@ -1,6 +1,6 @@
-import React, {useState, createRef} from "react";
-import "./ExperienceCard.scss";
 import ColorThief from "colorthief";
+import React, {createRef, useState} from "react";
+import "./ExperienceCard.scss";
 
 export default function ExperienceCard({cardInfo, isDark}) {
   const [colorArrays, setColorArrays] = useState([]);
@@ -78,6 +78,22 @@ export default function ExperienceCard({cardInfo, isDark}) {
         <ul>
           <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
         </ul>
+        <p
+          className={
+            isDark
+              ? "subTitle experience-text-desc dark-mode-text"
+              : "subTitle experience-text-desc"
+          }
+        >
+          <b>Recommendation: </b>
+          <a
+            href={cardInfo.recommendationLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {cardInfo.recommendationTitle}
+          </a>
+        </p>
       </div>
     </div>
   );

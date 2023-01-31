@@ -1,9 +1,9 @@
 import React, {useContext} from "react";
-import "./WorkExperience.scss";
-import ExperienceCard from "../../components/experienceCard/ExperienceCard";
-import {workExperiences} from "../../portfolio";
 import {Fade} from "react-reveal";
+import ExperienceCard from "../../components/experienceCard/ExperienceCard";
 import StyleContext from "../../contexts/StyleContext";
+import {workExperiences} from "../../portfolio";
+import "./WorkExperience.scss";
 
 export default function WorkExperience() {
   const {isDark} = useContext(StyleContext);
@@ -14,6 +14,15 @@ export default function WorkExperience() {
           <div className="experience-container" id="workExperience">
             <div>
               <h1 className="experience-heading">Experiences</h1>
+              <p
+                className={
+                  isDark
+                    ? "dark-mode project-subtitle"
+                    : "subTitle project-subtitle"
+                }
+              >
+                {workExperiences.subtitle}
+              </p>
               <div className="experience-cards-div">
                 {workExperiences.experience.map((card, i) => {
                   return (
@@ -26,7 +35,9 @@ export default function WorkExperience() {
                         date: card.date,
                         companylogo: card.companylogo,
                         role: card.role,
-                        descBullets: card.descBullets
+                        descBullets: card.descBullets,
+                        recommendationTitle: card.recommendationTitle,
+                        recommendationLink: card.recommendationLink
                       }}
                     />
                   );
