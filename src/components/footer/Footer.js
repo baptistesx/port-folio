@@ -11,7 +11,10 @@ export default function Footer() {
         {/* <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           {emoji("Made with ❤️ by DeveloperFolio Team")}
         </p> */}
-        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
+        <p
+          className={isDark ? "dark-mode footer-text" : "footer-text"}
+          style={{fontSize: 12}}
+        >
           {"Thanks to "}
           <a
             href="https://github.com/saadpasta/developerFolio"

@@ -1,9 +1,9 @@
-import React, {useState, useEffect, useContext, Suspense, lazy} from "react";
-import "./Project.scss";
+import React, {Suspense, lazy, useContext, useEffect, useState} from "react";
 import Button from "../../components/button/Button";
-import {openSource, socialMediaLinks} from "../../portfolio";
-import StyleContext from "../../contexts/StyleContext";
 import Loading from "../../containers/loading/Loading";
+import StyleContext from "../../contexts/StyleContext";
+import {openSource, socialMediaLinks} from "../../portfolio";
+import "./Project.scss";
 export default function Projects() {
   const GithubRepoCard = lazy(() =>
     import("../../components/githubRepoCard/GithubRepoCard")
@@ -33,7 +33,7 @@ export default function Projects() {
           setrepoFunction("Error");
         });
     };
-    getRepoData();
+    // getRepoData();
   }, []);
 
   function setrepoFunction(array) {
@@ -41,7 +41,7 @@ export default function Projects() {
   }
   if (
     !(typeof repo === "string" || repo instanceof String) &&
-    openSource.display
+    openSource.showOpenSourceProjects
   ) {
     return (
       <Suspense fallback={renderLoader()}>

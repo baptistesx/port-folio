@@ -23,7 +23,7 @@ const greeting = {
   username: "Baptiste Seux",
   title: "Hi all, I'm Baptiste",
   subTitle: emoji(
-    "A curious Full Stack Software Engineer 🚀 more specialized about mobile apps development using the amazing Flutter framework."
+    "A curious Full Stack Software Engineer 🚀 specialized with the amazing Flutter framework."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1E_9BPjg1tEaJKtGUkjpHXg45wJ-kGurx/view?usp=share_link", // Set to empty to hide the button
@@ -50,14 +50,15 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "ENJOY LEADING FULL STACK PROJECTS AND DEVELOPING AMAZING FLUTTER MOBILE APPS",
+    "ENJOY LEADING TECH PROJECTS AND DEVELOPING AWESOME FLUTTER MOBILE APPS",
   skills: [
     emoji(
       "⚡ Develop highly interactive cross-platforms apps from the idea to production"
     ),
     emoji(
       "⚡ Integration of third party services such as OAauth / Firebase / Google Maps"
-    )
+    ),
+    emoji("⚡ Agile development, step by step")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -67,6 +68,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Flutter",
       fontAwesomeClassname: "fab fa-flutter"
+    },
+    {
+      skillName: "Dart",
+      fontAwesomeClassname: "fab fa-dart"
     },
     {
       skillName: "Firebase",
@@ -98,7 +103,7 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Grenoble INP ENSIMAG, FRANCE",
+      schoolName: "INP ENSIMAG, FRANCE",
       logo: require("./assets/images/ensimagLogo.png"),
       subHeader: "Masters specialty, Embedded Systems and Connected Objects",
       duration: "September 2019 - September 2021",
@@ -109,7 +114,7 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "Grenoble INP PHELMA, FRANCE",
+      schoolName: "INP PHELMA, FRANCE",
       logo: require("./assets/images/phelmaLogo.png"),
       subHeader: "Master of Science in Physics, Electronics and Materials",
       duration: "September 2018 - September 2019",
@@ -209,8 +214,9 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
+  showOpenSourceProjects: false,
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on

@@ -1,4 +1,4 @@
-import React, {useState, useEffect, lazy, Suspense} from "react";
+import React, {Suspense, lazy, useEffect, useState} from "react";
 import {openSource} from "../../portfolio";
 import Contact from "../contact/Contact";
 import Loading from "../loading/Loading";
@@ -18,9 +18,22 @@ export default function Profile() {
       const getProfileData = () => {
         fetch("/profile.json")
           .then(result => {
-            if (result.ok) {
-              return result.json();
-            }
+            var user = {
+              data: {
+                user: {
+                  name: "Baptiste Seux",
+                  bio: "Mobile software engineer as freelance for 2 years, working with Flutter",
+                  avatarUrl:
+                    "https://avatars.githubusercontent.com/u/9638281?u=467564517d1e97d26026512bad2d44a768451bb5&v=4",
+                  location: "Valence, France",
+                  pinnedItems: {totalCount: 0, edges: []}
+                }
+              }
+            };
+            return user;
+            // if (result.ok) {
+            //   return result.json(); // not working
+            // }
           })
           .then(response => {
             setProfileFunction(response.data.user);
