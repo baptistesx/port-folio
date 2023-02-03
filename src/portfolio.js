@@ -153,7 +153,7 @@ const techStack = {
       progressPercentage: "70%"
     },
     {
-      Stack: "Backend: Node.js",
+      Stack: "Backend: Node.js, mongoDB, postgresql",
       progressPercentage: "70%"
     }
   ],
@@ -164,6 +164,7 @@ const techStack = {
 
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
+  title: "Experiences",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   experience: [
     {
@@ -171,41 +172,157 @@ const workExperiences = {
       company: "Meowtel",
       companylogo: require("./assets/images/meowtelLogo.png"),
       date: "Mai 2022 – Present",
-      desc: "As a freelance, developed and led the developement of Meowtel's mobile app v2.",
+      desc1: "Meowtel is the leader cat sitting app in America.",
+      desc2:
+        "As a freelance, I developed and led the development of Meowtel's Flutter mobile app v2.",
+      desc3:
+        "The app is divided into two parts: the cats parents side (to see and book sitters around them...) and the sitters side (to manage their availability, clients...).",
       descBullets: [
-        "Passwordless auth: OTP & OAuth third parties",
+        "Passwordless OTP auth, third parties OAuth",
         "Google Maps api",
         "Checkout process",
         "Live chat",
+        "Push Notification (FCM)",
         "..."
       ],
-      recommendationTitle: "Bruno Leveque",
-      recommendationLink: "https://www.linkedin.com/in/bruno42/"
+      recommendations: [
+        {link: "https://www.linkedin.com/in/bruno42/", name: "Bruno Leveque"},
+        {
+          link: "https://www.linkedin.com/in/sonyapetcavich/",
+          name: "Sonya Petcavich"
+        }
+      ],
+      pdfTitle: "Meowtel PDF",
+      pdfUrl: "https://pitch.com/embed/8267b542-129e-4d5c-8ce1-7c3d5314e2fd",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://meowtel.com/"
+        }
+      ]
     },
     {
       role: "Web & mobile tech lead",
       company: "Capgemini",
       companylogo: require("./assets/images/capgeminiLogo.png"),
       date: "August 2022 – Present",
-      desc: "As a freelance, developed and led the Studio 147 inventory app.",
+      desc1:
+        "Capgemini has a visual production studio, Studio 147, which owns hundreads of devices references.",
+      desc2:
+        "As a freelance, I developed and led the Studio 147 inventory app.",
+      desc3:
+        "On one side there is a backoffice React web app to register all the devices & users, and on the other side, a Flutter mobile app for the studio's team to borrow and return these devices.",
       descBullets: [
         "QR code scanner to identify & book hundreads of products & devices",
-        "Admin backoffice React web app",
-        "Users Flutter mobile app",
-        "Backend with Nestjs/Typescript & Postgresql",
-        "..."
+        "Access all the products descriptions & availability",
+        "Backend with Nestjs/Typescript & Postgresql"
       ],
-      recommendationTitle: "Vincent Cornut",
-      recommendationLink: "https://www.linkedin.com/in/vincent-cornut-1219b15/"
+      recommendations: [
+        {
+          link: "https://www.linkedin.com/in/vincent-cornut-1219b15/",
+          name: "Vincent Cornut"
+        },
+        {
+          link: "https://www.linkedin.com/in/arthur-tran-77196955/",
+          name: "Arthur Tran"
+        }
+      ],
+      pdfTitle: "GDE147",
+      pdfUrl: "https://pitch.com/embed/fc058cf9-29cd-4f25-8576-7dac9b39e8a0"
     },
     {
       role: "Mobile app tech lead",
       company: "Minute Drone",
       companylogo: require("./assets/images/minuteDroneLogo.png"),
       date: "Nov 2022 – Jan 2023",
-      desc: "As a freelance, developed the mobile app to configure Minute Drone's new custom drone.",
-      recommendationTitle: "Aymen Ahmed",
-      recommendationLink: "https://www.linkedin.com/in/aymenahmed/"
+      desc1: "Minutedrone is the French leader in professional drone teaching.",
+      desc2:
+        "As a freelance, I developed the Flutter mobile app to configure Minute Drone's new custom drone.",
+
+      recommendations: [
+        {
+          link: "https://www.linkedin.com/in/aymenahmed/",
+          name: "Aymen Ahmed"
+        }
+      ],
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://minutedrone.com/"
+        }
+      ]
+    }
+  ]
+};
+
+const otherProjects = {
+  display: true, //Set it to true to show workExperiences Section
+  title: "Other Projects",
+  subtitle: "SOME ASSOCIATIONS I HELPED OR PERSONAL PROJECTS",
+  experience: [
+    {
+      role: "Fullstack tech lead",
+      company: "ENTPE",
+      companylogo: require("./assets/images/tramsLogo.png"),
+      date: "Oct 2020 – Present",
+      desc1: "ENTPE is a French engineering school located in Lyon.",
+      desc2:
+        "As a freelance, I developed the v1 and v2 of the backoffice and mobile app for the TRAMS, a big student sports competition which takes place every year.",
+      desc3:
+        "The backoffice allows the admins to register all the data that users will retrieve on the Flutter mobile app. The mobile app displays an info feed, games planning & results, teams & schools ranking, rules, sponsors and an interactive map.",
+      // descBullets: [
+      //   "Passwordless OTP auth, third parties OAuth",
+      //   "Google Maps api",
+      //   "Checkout process",
+      //   "Live chat",
+      //   "Push Notification (FCM)",
+      //   "..."
+      // ],
+      // recommendations: [
+      //   {
+      //     link: "https://www.linkedin.com/in/aymenahmed/",
+      //     name: "Aymen Ahmed"
+      //   }
+      // ],
+      pdfTitle: "Meowtel PDF",
+      pdfUrl: "https://pitch.com/embed/d37faa0c-12b8-4428-8bac-cadf36fae74e"
+      // footerLink: [
+      //   {
+      //     name: "Visit Website",
+      //     url: "http://meowtel.com/"
+      //   }
+      // ]
+    },
+    {
+      role: "Fullstack Engineer",
+      company: "FOM (personal project)",
+      companylogo: require("./assets/images/fomLogo.png"),
+      date: "2022 – 2023",
+      desc1:
+        "A mobile app fully sync between devices to manage your restaurant orders.",
+      desc2:
+        "The app is developped with Flutter, Firebase & Firestore with streams to get everything sync.",
+      videoTitle: "FOM app (Pizza Orders Management) présentation v1",
+      videoUrl: "https://www.youtube.com/embed/wQRvYt0_1II"
+    },
+    {
+      role: "Fullstack Engineer",
+      company: "Cult'Connect (personal project)",
+      companylogo: require("./assets/images/cultconnectLogo.png"),
+      date: "2021",
+      desc1:
+        "A Fluter mobile app to register your smart sensors and follow their data in live, but also your smart actuators.",
+      desc2: "The backend was made with node.js, express & mongoDB.",
+      desc3:
+        "The smart modules hardware & software have been developed home made.",
+      // recommendations: [
+      //   {
+      //     link: "https://www.linkedin.com/in/aymenahmed/",
+      //     name: "Aymen Ahmed"
+      //   }
+      // ],
+      videoTitle: " Cult'Connect v1 - Presentation ",
+      videoUrl: "https://www.youtube.com/embed/E9dBVZ1cW04"
     }
   ]
 };
@@ -395,6 +512,7 @@ export {
   educationInfo,
   techStack,
   workExperiences,
+  otherProjects,
   openSource,
   bigProjects,
   achievementSection,

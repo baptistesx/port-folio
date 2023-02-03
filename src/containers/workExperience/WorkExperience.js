@@ -2,18 +2,17 @@ import React, {useContext} from "react";
 import {Fade} from "react-reveal";
 import ExperienceCard from "../../components/experienceCard/ExperienceCard";
 import StyleContext from "../../contexts/StyleContext";
-import {workExperiences} from "../../portfolio";
 import "./WorkExperience.scss";
 
-export default function WorkExperience() {
+export default function WorkExperience({experiences}) {
   const {isDark} = useContext(StyleContext);
-  if (workExperiences.display) {
+  if (experiences.display) {
     return (
       <div id="experience">
         <Fade bottom duration={1000} distance="20px">
           <div className="experience-container" id="workExperience">
             <div>
-              <h1 className="experience-heading">Experiences</h1>
+              <h1 className="experience-heading">{experiences.title}</h1>
               <p
                 className={
                   isDark
@@ -21,23 +20,29 @@ export default function WorkExperience() {
                     : "subTitle project-subtitle"
                 }
               >
-                {workExperiences.subtitle}
+                {experiences.subtitle}
               </p>
               <div className="experience-cards-div">
-                {workExperiences.experience.map((card, i) => {
+                {experiences.experience.map((card, i) => {
                   return (
                     <ExperienceCard
                       key={i}
                       isDark={isDark}
                       cardInfo={{
                         company: card.company,
-                        desc: card.desc,
+                        desc1: card.desc1,
+                        desc2: card.desc2,
+                        desc3: card.desc3,
                         date: card.date,
                         companylogo: card.companylogo,
                         role: card.role,
                         descBullets: card.descBullets,
-                        recommendationTitle: card.recommendationTitle,
-                        recommendationLink: card.recommendationLink
+                        recommendations: card.recommendations,
+                        pdfTitle: card.pdfTitle,
+                        pdfUrl: card.pdfUrl,
+                        videoTitle: card.videoTitle,
+                        videoUrl: card.videoUrl,
+                        footer: card.footerLink
                       }}
                     />
                   );
