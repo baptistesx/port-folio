@@ -56,7 +56,7 @@ const skillsSection = {
       "⚡ Develop highly interactive cross-platforms apps from the idea to production"
     ),
     emoji(
-      "⚡ Integration of third party services such as OAauth / Firebase / Google Maps"
+      "⚡ Integration of third party services such as OAuth / Firebase / Google Maps"
     ),
     emoji("⚡ Agile development, step by step")
   ],
@@ -118,10 +118,10 @@ const educationInfo = {
       logo: require("./assets/images/phelmaLogo.png"),
       subHeader: "Master of Science in Physics, Electronics and Materials",
       duration: "September 2018 - September 2019",
-      desc: "Cult'Connect, a smart greenhouse managment system:",
+      desc: "Cult'Connect, a smart greenhouse management system:",
       descBullets: [
         "Smart modules conception (hardware & software)",
-        "Mobile app managment + backend",
+        "Mobile Flutter app management with Clean Architecture + backend",
         "Stack: C++, Flutter, node.js, MongoDB"
       ]
     },
@@ -129,7 +129,7 @@ const educationInfo = {
       schoolName: "University Institute of Technology, Grenoble, FRANCE",
       logo: require("./assets/images/iut1Logo.png"),
       subHeader: "Bachelor of Science in Electronics and Computering",
-      duration: "September 2016 - Septembre 2018",
+      duration: "September 2016 - September 2018",
       desc: "Ranked top 4 in the program. Took courses about:",
       descBullets: [
         "Software Engineering, Electronics, ...",
@@ -267,9 +267,9 @@ const otherProjects = {
       date: "Oct 2020 – Present",
       desc1: "ENTPE is a French engineering school located in Lyon.",
       desc2:
-        "As a freelance, I developed the v1 and v2 of the backoffice and mobile app for the TRAMS, a big student sports competition which takes place every year.",
+        "As a freelance, I developed the v1 and v2 of the back office and mobile app for the TRAMS, a big student sports competition which takes place every year.",
       desc3:
-        "The backoffice allows the admins to register all the data that users will retrieve on the Flutter mobile app. The mobile app displays an info feed, games planning & results, teams & schools ranking, rules, sponsors and an interactive map.",
+        "The back office allows the admins to register all the data that users will retrieve on the Flutter mobile app. The mobile app displays an info feed, games planning & results, teams & schools ranking, rules, sponsors and an interactive map.",
       // descBullets: [
       //   "Passwordless OTP auth, third parties OAuth",
       //   "Google Maps api",
@@ -301,8 +301,8 @@ const otherProjects = {
       desc1:
         "A mobile app fully sync between devices to manage your restaurant orders.",
       desc2:
-        "The app is developped with Flutter, Firebase & Firestore with streams to get everything sync.",
-      videoTitle: "FOM app (Pizza Orders Management) présentation v1",
+        "The app is developed with Flutter, Firebase & Firestore with streams to get everything sync.",
+      videoTitle: "FOM app (Food Orders Management)",
       videoUrl: "https://www.youtube.com/embed/wQRvYt0_1II"
     },
     {
