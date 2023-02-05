@@ -312,7 +312,8 @@ const otherProjects = {
       date: "2021",
       desc1:
         "A Flutter mobile app to register your smart modules (sensors and actuators) to follow their data in live, configure thresholds for the automatic mode or pilot them manually.",
-      desc2: "The backend was made with node.js, express & mongoDB. For the embedded part, ESP32s have been used.",
+      desc2:
+        "The backend was made with node.js, express & mongoDB. For the embedded part, ESP32s have been used.",
       desc3:
         "The smart modules hardware & software have been developed home made.",
       // recommendations: [
