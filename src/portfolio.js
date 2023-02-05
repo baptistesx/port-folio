@@ -103,9 +103,9 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "INP ENSIMAG, FRANCE",
+      schoolName: "INP ENSIMAG, Grenoble, FRANCE",
       logo: require("./assets/images/ensimagLogo.png"),
-      subHeader: "Masters specialty, Embedded Systems and Connected Objects",
+      subHeader: "Master's specialty, Embedded Systems and Connected Objects",
       duration: "September 2019 - September 2021",
       desc: "Link, a proximity social network:",
       descBullets: [
@@ -114,7 +114,7 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "INP PHELMA, FRANCE",
+      schoolName: "INP PHELMA, Grenoble, FRANCE",
       logo: require("./assets/images/phelmaLogo.png"),
       subHeader: "Master of Science in Physics, Electronics and Materials",
       duration: "September 2018 - September 2019",
@@ -126,7 +126,7 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "University Institutes of Technology, Grenoble, FRANCE",
+      schoolName: "University Institute of Technology, Grenoble, FRANCE",
       logo: require("./assets/images/iut1Logo.png"),
       subHeader: "Bachelor of Science in Electronics and Computering",
       duration: "September 2016 - Septembre 2018",
@@ -207,14 +207,14 @@ const workExperiences = {
       companylogo: require("./assets/images/capgeminiLogo.png"),
       date: "August 2022 – Present",
       desc1:
-        "Capgemini has a visual production studio, Studio 147, which owns hundreads of devices references.",
+        "Capgemini has a visual production studio, Studio 147, which owns hundreds of devices references.",
       desc2:
         "As a freelance, I developed and led the Studio 147 inventory app.",
       desc3:
-        "On one side there is a backoffice React web app to register all the devices & users, and on the other side, a Flutter mobile app for the studio's team to borrow and return these devices.",
+        "On one side there is a back office React web app to register all the devices & users and on the other side, a Flutter mobile app for the studio's team to borrow and return these devices.",
       descBullets: [
-        "QR code scanner to identify & book hundreads of products & devices",
-        "Access all the products descriptions & availability",
+        "QR code scanner to identify & book hundreds of products & devices",
+        "Access all the products description & availability",
         "Backend with Nestjs/Typescript & Postgresql"
       ],
       recommendations: [
@@ -311,8 +311,8 @@ const otherProjects = {
       companylogo: require("./assets/images/cultconnectLogo.png"),
       date: "2021",
       desc1:
-        "A Fluter mobile app to register your smart sensors and follow their data in live, but also your smart actuators.",
-      desc2: "The backend was made with node.js, express & mongoDB.",
+        "A Flutter mobile app to register your smart modules (sensors and actuators) to follow their data in live, configure thresholds for the automatic mode or pilot them manually.",
+      desc2: "The backend was made with node.js, express & mongoDB. For the embedded part, ESP32s have been used.",
       desc3:
         "The smart modules hardware & software have been developed home made.",
       // recommendations: [

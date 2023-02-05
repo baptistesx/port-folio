@@ -2,8 +2,6 @@ import ColorThief from "colorthief";
 import React, {createRef, useState} from "react";
 import "./ExperienceCard.scss";
 
-import "yet-another-react-lightbox/styles.css";
-
 export default function ExperienceCard({cardInfo, isDark}) {
   const [colorArrays, setColorArrays] = useState([]);
   const imgRef = createRef();
