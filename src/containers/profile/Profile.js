@@ -22,7 +22,7 @@ export default function Profile() {
               data: {
                 user: {
                   name: "Baptiste Seux",
-                  bio: "Mobile software engineer as freelance for 2 years, working with Flutter",
+                  bio: "Sr Mobile Developer - Specialized in Flutter Mobile Apps",
                   avatarUrl:
                     "https://avatars.githubusercontent.com/u/9638281?u=467564517d1e97d26026512bad2d44a768451bb5&v=4",
                   location: "Valence, France",

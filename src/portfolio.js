@@ -23,7 +23,7 @@ const greeting = {
   username: "Baptiste Seux",
   title: "Hi all, I'm Baptiste",
   subTitle: emoji(
-    "A curious Full Stack Software Engineer 🚀 specialized with the amazing Flutter framework."
+    "A curious Full Stack Software Engineer 🚀 specialized in the amazing Flutter framework."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1E_9BPjg1tEaJKtGUkjpHXg45wJ-kGurx/view?usp=share_link", // Set to empty to hide the button
@@ -58,7 +58,10 @@ const skillsSection = {
     emoji(
       "⚡ Integration of third party services such as OAuth / Firebase / Google Maps"
     ),
-    emoji("⚡ Agile development, step by step")
+    emoji("⚡ Agile development, step by step"),
+    emoji(
+      "⚡ Full stack with node.js/typescript/express, mongoDB or postgresql "
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -142,7 +145,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Mobile: Flutter", //Insert stack or technology you have experience in
@@ -172,7 +175,7 @@ const workExperiences = {
       company: "Meowtel",
       companylogo: require("./assets/images/meowtelLogo.png"),
       date: "Mai 2022 – Present",
-      desc1: "Meowtel is the leader cat sitting app in America.",
+      desc1: "Meowtel is the leading cat sitting app in America.",
       desc2:
         "As a freelance, I developed and led the development of Meowtel's Flutter mobile app v2.",
       desc3:
