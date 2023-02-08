@@ -67,6 +67,7 @@ const Main = () => {
             <Profile />
             <Footer />
             <ScrollToTopButton />
+            <div style={{height: "100px"}}></div>
             <BottomFixedContainer waitBeforeShow={3500} />
           </>
         )}
