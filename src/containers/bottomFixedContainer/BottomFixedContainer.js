@@ -17,7 +17,7 @@ export default function BottomFixedContainer(props) {
 
       <ul>
         <li>a full time position as Sr Mobile Developer in Barcelona 🇪🇸</li>
-        <li>full time or part time mission as freelance</li>
+        <li>full time or part time missions as freelance</li>
       </ul>
     </div>
   );
