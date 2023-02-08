@@ -127,7 +127,12 @@ export default function ExperienceCard({cardInfo, isDark}) {
               <ul style={{margin: 0}}>
                 {cardInfo.recommendations.map(e => (
                   <li key={e.link}>
-                    <a href={e.link} target="_blank" rel="noopener noreferrer">
+                    <a
+                      href={e.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="appLink"
+                    >
                       {e.name}
                     </a>
                   </li>
