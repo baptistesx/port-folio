@@ -8,6 +8,7 @@ import "./Main.scss";
 import StartupProject from "./StartupProjects/StartupProject";
 import Achievement from "./achievement/Achievement";
 import Blogs from "./blogs/Blogs";
+import BottomFixedContainer from "./bottomFixedContainer/BottomFixedContainer";
 import Education from "./education/Education";
 import Greeting from "./greeting/Greeting";
 import Podcast from "./podcast/Podcast";
@@ -20,6 +21,7 @@ import Talks from "./talks/Talks";
 import ScrollToTopButton from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
 import WorkExperience from "./workExperience/WorkExperience";
+
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
   const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
@@ -65,6 +67,7 @@ const Main = () => {
             <Profile />
             <Footer />
             <ScrollToTopButton />
+            <BottomFixedContainer waitBeforeShow={3500} />
           </>
         )}
       </StyleProvider>
