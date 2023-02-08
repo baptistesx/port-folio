@@ -3,6 +3,7 @@ import "./BottomFixedContainer.scss";
 
 export default function BottomFixedContainer(props) {
   const [classes, setClasses] = useState("bottom-fixed-container delayed hide");
+  const [showFullContent, setShowFullContent] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -11,14 +12,19 @@ export default function BottomFixedContainer(props) {
     return () => clearTimeout(timer);
   }, []);
 
-  return (
-    <div class={classes}>
-      <h4>🚀 I'm currently open for 🚀</h4>
+  const toggleContent = () => setShowFullContent(!showFullContent);
 
-      <ul>
-        <li>a full time position as Sr Mobile Developer in Barcelona 🇪🇸</li>
-        <li>full time or part time missions as freelance</li>
-      </ul>
+  return (
+    <div class={classes} onClick={toggleContent}>
+      <h4>🚀 I'm currently open for 👇</h4>
+      {showFullContent ? (
+        <ul>
+          <li>a full time position as Sr Mobile Developer in Barcelona 🇪🇸</li>
+          <li>full time or part time missions as freelance</li>
+        </ul>
+      ) : (
+        ""
+      )}
     </div>
   );
 }
