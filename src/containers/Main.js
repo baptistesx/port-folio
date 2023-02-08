@@ -18,6 +18,7 @@ import StackProgress from "./skillProgress/skillProgress";
 import Skills from "./skills/Skills";
 import SplashScreen from "./splashScreen/SplashScreen";
 import Talks from "./talks/Talks";
+import ThankContainer from "./thank/thank";
 import ScrollToTopButton from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
 import WorkExperience from "./workExperience/WorkExperience";
@@ -64,6 +65,7 @@ const Main = () => {
             <Talks />
             <Twitter />
             <Podcast />
+            <ThankContainer />
             <Profile />
             <Footer />
             <ScrollToTopButton />
