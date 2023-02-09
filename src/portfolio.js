@@ -173,6 +173,7 @@ const workExperiences = {
     {
       role: "Mobile app tech lead",
       company: "Meowtel",
+      place: "San Francisco, CA, USA (remote)",
       companylogo: require("./assets/images/meowtelLogo.png"),
       date: "Mai 2022 – Present",
       desc1: "Meowtel is the leading cat sitting app in America.",
@@ -207,6 +208,7 @@ const workExperiences = {
     {
       role: "Web & mobile tech lead",
       company: "Capgemini",
+      place: "Paris, FRANCE (remote)",
       companylogo: require("./assets/images/capgeminiLogo.png"),
       date: "August 2022 – Present",
       desc1:
@@ -236,6 +238,7 @@ const workExperiences = {
     {
       role: "Mobile app tech lead",
       company: "Minute Drone",
+      place: "Grenoble, FRANCE (hybrid)",
       companylogo: require("./assets/images/minuteDroneLogo.png"),
       date: "Nov 2022 – Jan 2023",
       desc1: "Minutedrone is the French leader in professional drone teaching.",
@@ -266,6 +269,7 @@ const otherProjects = {
     {
       role: "Fullstack tech lead",
       company: "ENTPE",
+      place: "Lyon, FRANCE (remote)",
       companylogo: require("./assets/images/tramsLogo.png"),
       date: "Oct 2020 – Present",
       desc1: "ENTPE is a French engineering school located in Lyon.",
@@ -298,7 +302,8 @@ const otherProjects = {
     },
     {
       role: "Fullstack Engineer",
-      company: "FOM (personal project)",
+      company: "FOM",
+      place: "(personal project)",
       companylogo: require("./assets/images/fomLogo.png"),
       date: "2022 – 2023",
       desc1:
@@ -310,7 +315,8 @@ const otherProjects = {
     },
     {
       role: "Fullstack Engineer",
-      company: "Cult'Connect (personal project)",
+      company: "Cult'Connect",
+      place: "(personal project)",
       companylogo: require("./assets/images/cultconnectLogo.png"),
       date: "2021",
       desc1:

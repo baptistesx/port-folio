@@ -44,6 +44,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
         <div className="experience-blurred_div"></div>
         <div className="experience-div-company">
           <h5 className="experience-text-company">{cardInfo.company}</h5>
+          <h6>{cardInfo.place}</h6>
         </div>
 
         <img

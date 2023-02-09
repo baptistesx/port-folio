@@ -62,6 +62,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.experience-div-company > h5 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.experience-div-company > h6 {
+  margin-top: 8px;
+  color: $lightBackground1;
 }
 
 .experience-text-company {
