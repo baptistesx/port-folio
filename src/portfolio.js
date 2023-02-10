@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "A curious Full Stack Software Engineer 🚀 specialized in the amazing Flutter framework."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1E_9BPjg1tEaJKtGUkjpHXg45wJ-kGurx/view?usp=share_link", // Set to empty to hide the button
+  resumeLink: "https://cvdesignr.com/p/63e3db039336b", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
