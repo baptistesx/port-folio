@@ -16,12 +16,16 @@ export default function BottomFixedContainer(props) {
 
   return (
     <div class={classes} onClick={toggleContent}>
-      <h4>🚀 I'm currently open for 👇</h4>
+      <h4>🚀 I am currently open for 👇</h4>
       {showFullContent ? (
-        <ul>
-          <li>a full time position as Sr Mobile Developer in Barcelona 🇪🇸</li>
-          <li>full time or part time missions as freelance</li>
-        </ul>
+        <>
+          <p>
+            &#x2022; A full-time Mobile Apps Tech Lead position in Barcelona,
+            Spain🇪🇸
+            <br />
+            &#x2022; Full-time or part-time freelance missions
+          </p>
+        </>
       ) : (
         ""
       )}

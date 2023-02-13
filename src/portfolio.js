@@ -175,11 +175,11 @@ const workExperiences = {
       place: "San Francisco, CA, USA (remote)",
       companylogo: require("./assets/images/meowtelLogo.png"),
       date: "Mai 2022 – Present",
-      desc1: "Meowtel is the leading cat sitting app in America.",
+      desc1: "Meowtel is a top-ranked cat-sitting app in the United States.",
       desc2:
-        "As a freelance, I developed and led the development of Meowtel's Flutter mobile app v2.",
+        "As a freelance developer, I spearheaded the creation of Meowtel's Flutter mobile app version 2.",
       desc3:
-        "The app is divided into two parts: the cats parents side (to see and book sitters around them...) and the sitters side (to manage their availability, clients...).",
+        "The app is split into two distinct parts: one for cat owners to view and book local sitters, and another for sitters to manage their availability and clients.",
       descBullets: [
         "Passwordless OTP auth, third parties OAuth",
         "Google Maps api",
@@ -211,11 +211,9 @@ const workExperiences = {
       companylogo: require("./assets/images/capgeminiLogo.png"),
       date: "August 2022 – Present",
       desc1:
-        "Capgemini has a visual production studio, Studio 147, which owns hundreds of devices references.",
+        "Capgemini's Visual Production Studio, Studio 147, manages a vast array of device references.",
       desc2:
-        "As a freelance, I developed and led the Studio 147 inventory app.",
-      desc3:
-        "On one side there is a back office React web app to register all the devices & users and on the other side, a Flutter mobile app for the studio's team to borrow and return these devices.",
+        "As a freelance developer, I oversaw the creation of the Studio 147 inventory app, which features a back-office ReactJS web application for registering devices and users, and a Flutter mobile app for Studio 147's team to easily borrow and return these devices.",
       descBullets: [
         "QR code scanner to identify & book hundreds of products & devices",
         "Access all the products description & availability",
@@ -240,9 +238,10 @@ const workExperiences = {
       place: "Grenoble, FRANCE (hybrid)",
       companylogo: require("./assets/images/minuteDroneLogo.png"),
       date: "Nov 2022 – Jan 2023",
-      desc1: "Minutedrone is the French leader in professional drone teaching.",
+      desc1:
+        "MinuteDrone is one of the premier providers of professional drone education in France.",
       desc2:
-        "As a freelance, I developed the Flutter mobile app to configure Minute Drone's new custom drone.",
+        "As a freelance developer, I created the Flutter mobile app to configure MinuteDrones' new custom drone.",
 
       recommendations: [
         {
@@ -271,11 +270,11 @@ const otherProjects = {
       place: "Lyon, FRANCE (remote)",
       companylogo: require("./assets/images/tramsLogo.png"),
       date: "Oct 2020 – Present",
-      desc1: "ENTPE is a French engineering school located in Lyon.",
+      desc1: "ENTPE is a renowned French engineering school located in Lyon.",
       desc2:
-        "As a freelance, I developed the v1 and v2 of the back office and mobile app for the TRAMS, a big student sports competition which takes place every year.",
+        "As a freelance developer, I created version 1 and 2 of the back office and mobile app for TRAMS, a major annual student sports competition.",
       desc3:
-        "The back office allows the admins to register all the data that users will retrieve on the Flutter mobile app. The mobile app displays an info feed, games planning & results, teams & schools ranking, rules, sponsors and an interactive map.",
+        "The back office, accessible to administrators, facilitates the registration of data that is displayed on the Flutter mobile app. The app features an information feed, game schedules and results, teams and schools ranking, rules, sponsors, and an interactive map.",
       // descBullets: [
       //   "Passwordless OTP auth, third parties OAuth",
       //   "Google Maps api",
@@ -306,9 +305,8 @@ const otherProjects = {
       companylogo: require("./assets/images/fomLogo.png"),
       date: "2022 – 2023",
       desc1:
-        "A mobile app fully sync between devices to manage your restaurant orders.",
-      desc2:
-        "The app is developed with Flutter, Firebase & Firestore with streams to get everything sync.",
+        "A fully synchronized mobile app to streamline restaurant order management, developed using Flutter, Firebase, and Firestore with real-time data streams for seamless cross-device syncing.",
+
       videoTitle: "FOM app (Food Orders Management)",
       videoUrl: "https://www.youtube.com/embed/wQRvYt0_1II"
     },
@@ -319,11 +317,7 @@ const otherProjects = {
       companylogo: require("./assets/images/cultconnectLogo.png"),
       date: "2021",
       desc1:
-        "A Flutter mobile app to register your smart modules (sensors and actuators) to follow their data in live, configure thresholds for the automatic mode or pilot them manually.",
-      desc2:
-        "The backend was made with node.js, express & mongoDB. For the embedded part, ESP32s have been used.",
-      desc3:
-        "The smart modules hardware & software have been developed home made.",
+        "A Flutter mobile app for registering smart modules such as sensors and actuators, allowing you to monitor their data in real-time, configure automatic thresholds, and manually control them. The back-end was created using Node.js, Express, and MongoDB, and the embedded components were developed using ESP32s. The smart module hardware and software were designed and created in-house.",
       // recommendations: [
       //   {
       //     link: "https://www.linkedin.com/in/aymenahmed/",

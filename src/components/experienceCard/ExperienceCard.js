@@ -133,8 +133,9 @@ export default function ExperienceCard({cardInfo, isDark}) {
                       target="_blank"
                       rel="noopener noreferrer"
                       class="appLink"
+                      style={{textDecoration: "none"}}
                     >
-                      {e.name}
+                      {e.name} 👉 <i class="fab fa-linkedin"></i>
                     </a>
                   </li>
                 ))}
