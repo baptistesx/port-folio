@@ -170,14 +170,15 @@ const workExperiences = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   experience: [
     {
-      role: "Mobile app tech lead",
+      role: "Mobile Apps Lead Developer",
       company: "Meowtel",
       place: "San Francisco, CA, USA (remote)",
       companylogo: require("./assets/images/meowtelLogo.png"),
-      date: "Mai 2022 – Present",
-      desc1: "Meowtel is a top-ranked cat-sitting app in the United States.",
+      date: "May 2022 – Present",
+      desc1:
+        "Meowtel is the #1 Cat sitting Marketplace in the United States. 100,000+ times and almost half a million visits were already booked.",
       desc2:
-        "As a freelance developer, I spearheaded the creation of Meowtel's Flutter mobile app version 2.",
+        "I led Meowtel's new Flutter App development from its conception to launch. The app is now ~60% faster and offers a better UI/UX leading to an increased conversion rate.",
       desc3:
         "The app is split into two distinct parts: one for cat owners to view and book local sitters, and another for sitters to manage their availability and clients.",
       descBullets: [
@@ -205,7 +206,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Web & mobile tech lead",
+      role: "Web & Mobile Lead Developer",
       company: "Capgemini",
       place: "Paris, FRANCE (remote)",
       companylogo: require("./assets/images/capgeminiLogo.png"),
@@ -233,7 +234,7 @@ const workExperiences = {
       pdfUrl: "https://pitch.com/embed/fc058cf9-29cd-4f25-8576-7dac9b39e8a0"
     },
     {
-      role: "Mobile app tech lead",
+      role: "Mobile Apps Lead Developer",
       company: "Minute Drone",
       place: "Grenoble, FRANCE (hybrid)",
       companylogo: require("./assets/images/minuteDroneLogo.png"),
@@ -265,7 +266,7 @@ const otherProjects = {
   subtitle: "SOME ASSOCIATIONS I HELPED OR PERSONAL PROJECTS",
   experience: [
     {
-      role: "Fullstack tech lead",
+      role: "Fullstack Lead Developer",
       company: "ENTPE",
       place: "Lyon, FRANCE (remote)",
       companylogo: require("./assets/images/tramsLogo.png"),
