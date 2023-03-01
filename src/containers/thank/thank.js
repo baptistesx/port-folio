@@ -1,6 +1,6 @@
 import "./thank.scss";
 
-export default function ThankContainer() {
+export default function MWCContainer() {
   return (
     <div
       style={{

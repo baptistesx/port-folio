@@ -11,6 +11,7 @@ import Blogs from "./blogs/Blogs";
 import BottomFixedContainer from "./bottomFixedContainer/BottomFixedContainer";
 import Education from "./education/Education";
 import Greeting from "./greeting/Greeting";
+import MWCContainer from "./mwc/mwc";
 import Podcast from "./podcast/Podcast";
 import Profile from "./profile/Profile";
 import Projects from "./projects/Projects";
@@ -52,6 +53,7 @@ const Main = () => {
         ) : (
           <>
             <Header />
+            <MWCContainer />
             <Greeting />
             <Skills />
             <StackProgress />
