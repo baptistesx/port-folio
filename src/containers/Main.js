@@ -53,7 +53,7 @@ const Main = () => {
         ) : (
           <>
             <Header />
-            <MWCContainer />
+            {/* <MWCContainer /> */}
             <Greeting />
             <Skills />
             <StackProgress />
