@@ -25,7 +25,7 @@ export default function Profile() {
                   bio: "Sr Mobile Developer - Specialized in Flutter Mobile Apps",
                   avatarUrl:
                     "https://avatars.githubusercontent.com/u/9638281?u=467564517d1e97d26026512bad2d44a768451bb5&v=4",
-                  location: "Valence, France",
+                  location: "French, about to live in Barcelona, Spain",
                   pinnedItems: {totalCount: 0, edges: []}
                 }
               }
