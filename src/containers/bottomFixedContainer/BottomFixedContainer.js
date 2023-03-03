@@ -20,8 +20,8 @@ export default function BottomFixedContainer(props) {
       {showFullContent ? (
         <>
           <p>
-            &#x2022; A full-time Mobile Apps Lead Developer position in Barcelona,
-            Spain🇪🇸
+            &#x2022; A full-time Mobile Apps Lead Developer position in
+            Barcelona, Spain🇪🇸
             <br />
             &#x2022; Full-time or part-time freelance missions
           </p>
