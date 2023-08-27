@@ -1,6 +1,6 @@
 import React from "react";
-import "./SocialMedia.scss";
 import {socialMediaLinks} from "../../portfolio";
+import "./SocialMedia.scss";
 
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
@@ -8,6 +8,24 @@ export default function socialMedia() {
   }
   return (
     <div className="social-media-div">
+      {socialMediaLinks.malt ? (
+        <a
+          href={socialMediaLinks.malt}
+          className="icon-button malt"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {/* <i className="fab"> */}
+          <img
+            src={require("../../assets/images/maltLogo.png")}
+            alt="Malt Icon"
+          />
+          {/* </i> */}
+
+          <span></span>
+        </a>
+      ) : null}
+
       {socialMediaLinks.github ? (
         <a
           href={socialMediaLinks.github}
@@ -44,66 +62,6 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.gitlab ? (
-        <a
-          href={socialMediaLinks.gitlab}
-          className="icon-button gitlab"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-gitlab"></i>
-          <span></span>
-        </a>
-      ) : null}
-
-      {socialMediaLinks.facebook ? (
-        <a
-          href={socialMediaLinks.facebook}
-          className="icon-button facebook"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-facebook-f"></i>
-          <span></span>
-        </a>
-      ) : null}
-
-      {socialMediaLinks.instagram ? (
-        <a
-          href={socialMediaLinks.instagram}
-          className="icon-button instagram"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-instagram"></i>
-          <span></span>
-        </a>
-      ) : null}
-
-      {socialMediaLinks.twitter ? (
-        <a
-          href={socialMediaLinks.twitter}
-          className="icon-button twitter"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-twitter"></i>
-          <span></span>
-        </a>
-      ) : null}
-
-      {socialMediaLinks.medium ? (
-        <a
-          href={socialMediaLinks.medium}
-          className="icon-button medium"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-medium"></i>
-          <span></span>
-        </a>
-      ) : null}
-
       {socialMediaLinks.stackoverflow ? (
         <a
           href={socialMediaLinks.stackoverflow}
@@ -112,18 +70,6 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-stack-overflow"></i>
-          <span></span>
-        </a>
-      ) : null}
-
-      {socialMediaLinks.kaggle ? (
-        <a
-          href={socialMediaLinks.kaggle}
-          className="icon-button kaggle"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-kaggle"></i>
           <span></span>
         </a>
       ) : null}

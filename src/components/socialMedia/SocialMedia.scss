@@ -5,10 +5,10 @@
 }
 
 .icon-button {
-  margin-bottom: 10px;
+  // margin-bottom: 10px;
 }
 
-.icon-button i {
+.icon-button i, .icon-button img {
   color: $textColorDark;
   border-radius: 2.6rem;
   cursor: pointer;
@@ -24,8 +24,19 @@
   -ms-user-select: none;
   user-select: none;
   width: 2.6rem;
-  margin-bottom: 10px;
+  // margin-bottom: 10px;
   transition: 0.2s ease-in;
+}
+
+.malt img {
+  width: 30px; /* Adjust the width of the Malt icon */
+  height: 30px; /* Adjust the height of the Malt icon */
+  display: inline-block; /* Make the image inline */
+  vertical-align: middle; /* Align the image vertically in line with text */
+  margin: 0 5px; /* Add some spacing to match the other icons */
+  background-color: white; /* Add a white background */
+  border-radius: 50%; /* Make it circular */
+  padding: 5px; /* Add padding for spacing */
 }
 
 .facebook i {
@@ -69,6 +80,7 @@
 }
 
 /* Hover Transition */
+.malt img:hover,
 .twitter i:hover,
 .google i:hover,
 .gitlab i:hover,
@@ -85,6 +97,8 @@
 /* Media Query */
 @media (max-width: 768px) {
   .social-media-div {
-    text-align: center;
-  }
+    font-size: 2em;
+    display: flex;  /* Add flex display to align icons horizontally */
+    justify-content: center;  /* Center icons horizontally */
+    align-items: center; /* Center icons vertically */  }
 }
