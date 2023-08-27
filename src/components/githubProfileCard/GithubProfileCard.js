@@ -1,9 +1,9 @@
 import React from "react";
-import "./GithubProfileCard.scss";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
-import {contactInfo, isHireable} from "../../portfolio";
 import emoji from "react-easy-emoji";
 import {Fade} from "react-reveal";
+import SocialMedia from "../../components/socialMedia/SocialMedia";
+import {contactInfo, isHireable} from "../../portfolio";
+import "./GithubProfileCard.scss";
 
 export default function GithubProfileCard({prof}) {
   if (isHireable) {
@@ -43,7 +43,7 @@ export default function GithubProfileCard({prof}) {
             )}
             <div className="opp-div">
               <span className="desc-prof">
-                Open for opportunities: {prof.hireable}
+                Open for opportunities: <b>{prof.hireable.toUpperCase()}</b>
               </span>
             </div>
             <SocialMedia />

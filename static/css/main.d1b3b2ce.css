@@ -3,19 +3,27 @@
   font-family: Agustina Regular;
   font-style: normal;
   font-weight: 400;
-  src: local("Agustina Regular"),
+  src:
+    local("Agustina Regular"),
     url(/port-folio/static/media/Agustina.eb0c59dda4cc308cba96.woff)
       format("woff");
 }
 @font-face {
   font-display: swap;
   font-family: Montserrat;
-  src: local("Montserrat"),
+  src:
+    local("Montserrat"),
     url(/port-folio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf)
       format("woff");
 }
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace;
+  font-family:
+    source-code-pro,
+    Menlo,
+    Monaco,
+    Consolas,
+    Courier New,
+    monospace;
 }
 body,
 html {
@@ -24,7 +32,9 @@ html {
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font: 19px/23px Montserrat, sans-serif;
+  font:
+    19px/23px Montserrat,
+    sans-serif;
   margin: 0;
 }
 @media (max-width: 1380px) {
@@ -611,7 +621,9 @@ span.certificate-tag:hover {
   transform-origin: 50% 50%;
   transition: -webkit-transform 0.4s ease-out;
   transition: transform 0.4s ease-out;
-  transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
+  transition:
+    transform 0.4s ease-out,
+    -webkit-transform 0.4s ease-out;
   width: 32px;
   z-index: -1;
 }
@@ -645,7 +657,9 @@ span.certificate-tag:hover {
   .blog-card:before {
     transition: -webkit-transform 0.45s ease-out;
     transition: transform 0.45s ease-out;
-    transition: transform 0.45s ease-out, -webkit-transform 0.45s ease-out;
+    transition:
+      transform 0.45s ease-out,
+      -webkit-transform 0.45s ease-out;
   }
 }
 @media screen and (min-width: 675px) and (max-width: 860px) {
@@ -656,7 +670,9 @@ span.certificate-tag:hover {
   .blog-card:before {
     transition: -webkit-transform 0.5s ease-out;
     transition: transform 0.5s ease-out;
-    transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+    transition:
+      transform 0.5s ease-out,
+      -webkit-transform 0.5s ease-out;
   }
 }
 @media screen and (min-width: 860px) and (max-width: 924px) {
@@ -667,7 +683,9 @@ span.certificate-tag:hover {
   .blog-card:before {
     transition: -webkit-transform 0.5s ease-out;
     transition: transform 0.5s ease-out;
-    transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+    transition:
+      transform 0.5s ease-out,
+      -webkit-transform 0.5s ease-out;
   }
 }
 @media screen and (max-width: 480px) and (min-width: 300px) {
@@ -1507,7 +1525,9 @@ span.certificate-tag:hover {
 .splash-title {
   -webkit-font-feature-settings: "liga", "clig off";
   font-feature-settings: "liga", "clig off";
-  font-family: Agustina Regular, cursive;
+  font-family:
+    Agustina Regular,
+    cursive;
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   font-weight: 700;

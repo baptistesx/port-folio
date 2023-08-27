@@ -35,6 +35,7 @@ const socialMediaLinks = {
   github: "https://github.com/baptistesx",
   linkedin: "https://www.linkedin.com/in/baptiste-seux-11b793132/",
   gmail: "seuxbaptiste@gmail.com",
+  malt: "https://www.malt.fr/profile/baptisteseux",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
@@ -174,7 +175,7 @@ const workExperiences = {
       company: "Meowtel",
       place: "San Francisco, CA, USA (remote)",
       companylogo: require("./assets/images/meowtelLogo.png"),
-      date: "May 2022 – Present",
+      date: "May 2022 – May 2023",
       desc1:
         "Meowtel is the #1 Cat sitting Marketplace in the United States. 100,000+ times and almost half a million visits were already booked.",
       desc2:
@@ -232,6 +233,38 @@ const workExperiences = {
       ],
       pdfTitle: "GDE147",
       pdfUrl: "https://pitch.com/embed/fc058cf9-29cd-4f25-8576-7dac9b39e8a0"
+    },
+    {
+      role: "Fullstack & Mobile Lead Developer",
+      company: "Yakadir",
+      place: "Lille, FRANCE (remote)",
+      companylogo: require("./assets/images/yakadirLogo.png"),
+      date: "May 2023 – September 2023",
+      desc1:
+        "Yakadir is an emerging startup dedicated to promoting open dialogue on diverse healthcare topics",
+      desc2:
+        "As a freelance developer, I reworked 90% of the Fluter mobile app & backoffice to release the version 2.",
+      descBullets: [
+        "Rework the projects architecture & design",
+        "Add KPIs page on the backoffice",
+        "Backend with Hasura, graphql, postgresql, node.js, google cloud (cloud functions, cloud run...)"
+      ],
+      recommendations: [
+        {
+          link: "https://www.linkedin.com/in/philippemougin/",
+          name: "Philippe Mougin"
+        },
+        {
+          link: "https://www.linkedin.com/in/sergebesnard/",
+          name: "Serge Besnard"
+        },
+        {
+          link: "https://www.linkedin.com/in/estherboulanger/",
+          name: "Esther Boulanger"
+        }
+      ],
+      pdfTitle: "Yakadir",
+      pdfUrl: "https://pitch.com/public/564be052-7113-41ad-b050-f0579f0e5e5c"
     },
     {
       role: "Mobile Apps Lead Developer",
@@ -508,22 +541,22 @@ const twitterDetails = {
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
-  illustration,
+  achievementSection,
+  bigProjects,
+  blogSection,
+  contactInfo,
+  educationInfo,
   greeting,
+  illustration,
+  isHireable,
+  openSource,
+  otherProjects,
+  podcastSection,
+  skillsSection,
   socialMediaLinks,
   splashScreen,
-  skillsSection,
-  educationInfo,
-  techStack,
-  workExperiences,
-  otherProjects,
-  openSource,
-  bigProjects,
-  achievementSection,
-  blogSection,
   talkSection,
-  podcastSection,
-  contactInfo,
+  techStack,
   twitterDetails,
-  isHireable
+  workExperiences
 };

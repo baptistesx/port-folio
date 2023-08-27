@@ -31,7 +31,7 @@ export default function MWCContainer() {
             Enguerrand Arminjon
           </a>
         </b>
-        , who mentored me on Flutter for almost 2 years.
+        , who mentored me on Flutter for more than 3 years.
       </p>
     </div>
   );
