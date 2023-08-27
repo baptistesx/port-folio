@@ -35690,28 +35690,27 @@
                                 t.footerLink
                                   ? (0, c.jsx)("div", {
                                       className: "project-card-footer",
-                                      children: t.footerLink.map(function (
-                                        t,
-                                        i
-                                      ) {
-                                        return (0, c.jsx)(
-                                          "span",
-                                          {
-                                            className: e
-                                              ? "dark-mode project-tag"
-                                              : "project-tag",
-                                            onClick: function () {
-                                              var e;
-                                              (e = t.url) &&
-                                                window
-                                                  .open(e, "_blank")
-                                                  .focus();
+                                      children: t.footerLink.map(
+                                        function (t, i) {
+                                          return (0, c.jsx)(
+                                            "span",
+                                            {
+                                              className: e
+                                                ? "dark-mode project-tag"
+                                                : "project-tag",
+                                              onClick: function () {
+                                                var e;
+                                                (e = t.url) &&
+                                                  window
+                                                    .open(e, "_blank")
+                                                    .focus();
+                                              },
+                                              children: t.name
                                             },
-                                            children: t.name
-                                          },
-                                          i
-                                        );
-                                      })
+                                            i
+                                          );
+                                        }
+                                      )
                                     })
                                   : null
                               ]
@@ -35816,8 +35815,20 @@
                   (0, c.jsx)("div", {
                     className: "achievement-cards-div",
                     children: f.kD.achievementsCards.map(function (t, i) {
-                      return (0,
-                      c.jsx)(g, {isDark: e, cardInfo: {title: t.title, description: t.subtitle, image: t.image, imageAlt: t.imageAlt, footer: t.footerLink}}, i);
+                      return (0, c.jsx)(
+                        g,
+                        {
+                          isDark: e,
+                          cardInfo: {
+                            title: t.title,
+                            description: t.subtitle,
+                            image: t.image,
+                            imageAlt: t.imageAlt,
+                            footer: t.footerLink
+                          }
+                        },
+                        i
+                      );
                     })
                   })
                 ]
@@ -35906,8 +35917,19 @@
                       children:
                         "true" !== f.iZ.displayMediumBlogs || "Error" === r
                           ? f.iZ.blogs.map(function (t, i) {
-                              return (0,
-                              c.jsx)(k, {isDark: e, blog: {url: t.url, image: t.image, title: t.title, description: t.description}}, i);
+                              return (0, c.jsx)(
+                                k,
+                                {
+                                  isDark: e,
+                                  blog: {
+                                    url: t.url,
+                                    image: t.image,
+                                    title: t.title,
+                                    description: t.description
+                                  }
+                                },
+                                i
+                              );
                             })
                           : r.map(function (t, i) {
                               return (0, c.jsx)(
@@ -35953,8 +35975,11 @@
           var e = t.descBullets;
           return e
             ? e.map(function (t, e) {
-                return (0,
-                c.jsx)("li", {className: "subTitle", children: t}, e);
+                return (0, c.jsx)(
+                  "li",
+                  {className: "subTitle", children: t},
+                  e
+                );
               })
             : null;
         },
@@ -36579,8 +36604,20 @@
                     }),
                     f.$j.experience.map(function (t, e) {
                       var i = {width: t.progressPercentage};
-                      return (0,
-                      c.jsxs)("div", {className: "skill", children: [(0, c.jsx)("p", {children: t.Stack}), (0, c.jsx)("div", {className: "meter", children: (0, c.jsx)("span", {style: i})})]}, e);
+                      return (0, c.jsxs)(
+                        "div",
+                        {
+                          className: "skill",
+                          children: [
+                            (0, c.jsx)("p", {children: t.Stack}),
+                            (0, c.jsx)("div", {
+                              className: "meter",
+                              children: (0, c.jsx)("span", {style: i})
+                            })
+                          ]
+                        },
+                        e
+                      );
                     })
                   ]
                 }),
@@ -36728,8 +36765,29 @@
           children: (0, c.jsx)("ul", {
             className: "dev-icons",
             children: f.LO.softwareSkills.map(function (t, e) {
-              return (0,
-              c.jsxs)("li", {className: "software-skill-inline", name: t.skillName, children: [(0, c.jsx)("i", {className: "Flutter" === t.skillName || "Dart" === t.skillName ? "" : t.fontAwesomeClassname, children: "Flutter" === t.skillName ? (0, c.jsx)(it, {}) : "Dart" === t.skillName ? (0, c.jsx)(rt, {}) : ""}), (0, c.jsx)("p", {children: t.skillName})]}, e);
+              return (0, c.jsxs)(
+                "li",
+                {
+                  className: "software-skill-inline",
+                  name: t.skillName,
+                  children: [
+                    (0, c.jsx)("i", {
+                      className:
+                        "Flutter" === t.skillName || "Dart" === t.skillName
+                          ? ""
+                          : t.fontAwesomeClassname,
+                      children:
+                        "Flutter" === t.skillName
+                          ? (0, c.jsx)(it, {})
+                          : "Dart" === t.skillName
+                          ? (0, c.jsx)(rt, {})
+                          : ""
+                    }),
+                    (0, c.jsx)("p", {children: t.skillName})
+                  ]
+                },
+                e
+              );
             })
           })
         })
@@ -36781,8 +36839,16 @@
                       (0, c.jsx)(at, {}),
                       (0, c.jsx)("div", {
                         children: f.LO.skills.map(function (t, i) {
-                          return (0,
-                          c.jsx)("p", {className: e ? "dark-mode subTitle skills-text" : "subTitle skills-text", children: t}, i);
+                          return (0, c.jsx)(
+                            "p",
+                            {
+                              className: e
+                                ? "dark-mode subTitle skills-text"
+                                : "subTitle skills-text",
+                              children: t
+                            },
+                            i
+                          );
                         })
                       })
                     ]
@@ -36879,8 +36945,20 @@
                     children: f.GR.subtitle
                   }),
                   f.GR.talks.map(function (t, i) {
-                    return (0,
-                    c.jsx)(lt, {talkDetails: {title: t.title, subtitle: t.subtitle, slides_url: t.slides_url, event_url: t.event_url, image: t.image, isDark: e}}, i);
+                    return (0, c.jsx)(
+                      lt,
+                      {
+                        talkDetails: {
+                          title: t.title,
+                          subtitle: t.subtitle,
+                          slides_url: t.slides_url,
+                          event_url: t.event_url,
+                          image: t.image,
+                          isDark: e
+                        }
+                      },
+                      i
+                    );
                   })
                 ]
               })
@@ -37013,7 +37091,10 @@
                     if (window.twttr) {
                       var e = t.buildOptions();
                       (e = t.buildChromeOptions(e)), t.renderWidget(e);
-                    } else console.error("Failure to load window.twttr in TwitterTimelineEmbed, aborting load.");
+                    } else
+                      console.error(
+                        "Failure to load window.twttr in TwitterTimelineEmbed, aborting load."
+                      );
                   });
               }
             },
@@ -38192,8 +38273,14 @@
             i = t.isDark;
           return e
             ? e.map(function (t, e) {
-                return (0,
-                c.jsx)("li", {className: i ? "subTitle dark-mode-text" : "subTitle", children: t}, e);
+                return (0, c.jsx)(
+                  "li",
+                  {
+                    className: i ? "subTitle dark-mode-text" : "subTitle",
+                    children: t
+                  },
+                  e
+                );
               })
             : null;
         };
@@ -38288,8 +38375,18 @@
                         children: (0, c.jsx)("ul", {
                           style: {margin: 0},
                           children: i.recommendations.map(function (t) {
-                            return (0,
-                            c.jsx)("li", {children: (0, c.jsx)("a", {href: t.link, target: "_blank", rel: "noopener noreferrer", children: t.name})}, t.link);
+                            return (0, c.jsx)(
+                              "li",
+                              {
+                                children: (0, c.jsx)("a", {
+                                  href: t.link,
+                                  target: "_blank",
+                                  rel: "noopener noreferrer",
+                                  children: t.name
+                                })
+                              },
+                              t.link
+                            );
                           })
                         })
                       }),
@@ -38398,8 +38495,29 @@
                     (0, c.jsx)("div", {
                       className: "experience-cards-div",
                       children: i.experience.map(function (t, e) {
-                        return (0,
-                        c.jsx)(Dt, {isDark: r, cardInfo: {company: t.company, desc1: t.desc1, desc2: t.desc2, desc3: t.desc3, date: t.date, companylogo: t.companylogo, role: t.role, descBullets: t.descBullets, recommendations: t.recommendations, pdfTitle: t.pdfTitle, pdfUrl: t.pdfUrl, videoTitle: t.videoTitle, videoUrl: t.videoUrl, footer: t.footerLink}}, e);
+                        return (0, c.jsx)(
+                          Dt,
+                          {
+                            isDark: r,
+                            cardInfo: {
+                              company: t.company,
+                              desc1: t.desc1,
+                              desc2: t.desc2,
+                              desc3: t.desc3,
+                              date: t.date,
+                              companylogo: t.companylogo,
+                              role: t.role,
+                              descBullets: t.descBullets,
+                              recommendations: t.recommendations,
+                              pdfTitle: t.pdfTitle,
+                              pdfUrl: t.pdfUrl,
+                              videoTitle: t.videoTitle,
+                              videoUrl: t.videoUrl,
+                              footer: t.footerLink
+                            }
+                          },
+                          e
+                        );
                       })
                     })
                   ]
