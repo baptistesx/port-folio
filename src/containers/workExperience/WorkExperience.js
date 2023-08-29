@@ -6,6 +6,7 @@ import "./WorkExperience.scss";
 
 export default function WorkExperience({experiences}) {
   const {isDark} = useContext(StyleContext);
+
   if (experiences.display) {
     return (
       <div id="experience">
@@ -23,7 +24,10 @@ export default function WorkExperience({experiences}) {
                 {experiences.subtitle}
               </p>
               <div className="experience-cards-div">
-                {experiences.experience.map((card, i) => {
+                {(window.innerWidth < 450
+                  ? experiences.experience.slice(0, 3)
+                  : experiences.experience
+                ).map((card, i) => {
                   return (
                     <ExperienceCard
                       key={i}

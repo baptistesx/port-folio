@@ -1,7 +1,7 @@
 {
   "homepage": "https://baptistesx.github.io/port-folio",
   "name": "baptisteseux",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "dependencies": {
     "colorthief": "^2.3.0",

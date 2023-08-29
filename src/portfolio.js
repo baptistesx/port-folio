@@ -264,7 +264,13 @@ const workExperiences = {
         }
       ],
       pdfTitle: "Yakadir",
-      pdfUrl: "https://pitch.com/public/564be052-7113-41ad-b050-f0579f0e5e5c"
+      pdfUrl: "https://pitch.com/public/564be052-7113-41ad-b050-f0579f0e5e5c",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://yakadir.org/"
+        }
+      ]
     },
     {
       role: "Mobile Apps Lead Developer",

@@ -15,7 +15,7 @@ export default function BottomFixedContainer(props) {
   const toggleContent = () => setShowFullContent(!showFullContent);
 
   return (
-    <div class={classes} onClick={toggleContent}>
+    <div className={classes} onClick={toggleContent}>
       <h4>🚀 I am currently open for 👇</h4>
       {showFullContent ? (
         <>

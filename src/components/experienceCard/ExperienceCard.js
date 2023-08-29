@@ -132,10 +132,10 @@ export default function ExperienceCard({cardInfo, isDark}) {
                       href={e.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      class="appLink"
+                      className="appLink"
                       style={{textDecoration: "none"}}
                     >
-                      {e.name} 👉 <i class="fab fa-linkedin"></i>
+                      {e.name} 👉 <i className="fab fa-linkedin"></i>
                     </a>
                   </li>
                 ))}
@@ -204,9 +204,9 @@ export default function ExperienceCard({cardInfo, isDark}) {
               // height="637"
               src={cardInfo.videoUrl}
               title={cardInfo.videoTitle}
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </div>
         ) : (

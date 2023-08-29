@@ -35690,27 +35690,28 @@
                                 t.footerLink
                                   ? (0, c.jsx)("div", {
                                       className: "project-card-footer",
-                                      children: t.footerLink.map(
-                                        function (t, i) {
-                                          return (0, c.jsx)(
-                                            "span",
-                                            {
-                                              className: e
-                                                ? "dark-mode project-tag"
-                                                : "project-tag",
-                                              onClick: function () {
-                                                var e;
-                                                (e = t.url) &&
-                                                  window
-                                                    .open(e, "_blank")
-                                                    .focus();
-                                              },
-                                              children: t.name
+                                      children: t.footerLink.map(function (
+                                        t,
+                                        i
+                                      ) {
+                                        return (0, c.jsx)(
+                                          "span",
+                                          {
+                                            className: e
+                                              ? "dark-mode project-tag"
+                                              : "project-tag",
+                                            onClick: function () {
+                                              var e;
+                                              (e = t.url) &&
+                                                window
+                                                  .open(e, "_blank")
+                                                  .focus();
                                             },
-                                            i
-                                          );
-                                        }
-                                      )
+                                            children: t.name
+                                          },
+                                          i
+                                        );
+                                      })
                                     })
                                   : null
                               ]
@@ -35975,11 +35976,8 @@
           var e = t.descBullets;
           return e
             ? e.map(function (t, e) {
-                return (0, c.jsx)(
-                  "li",
-                  {className: "subTitle", children: t},
-                  e
-                );
+                return (0,
+                c.jsx)("li", {className: "subTitle", children: t}, e);
               })
             : null;
         },
@@ -37091,10 +37089,7 @@
                     if (window.twttr) {
                       var e = t.buildOptions();
                       (e = t.buildChromeOptions(e)), t.renderWidget(e);
-                    } else
-                      console.error(
-                        "Failure to load window.twttr in TwitterTimelineEmbed, aborting load."
-                      );
+                    } else console.error("Failure to load window.twttr in TwitterTimelineEmbed, aborting load.");
                   });
               }
             },
@@ -38455,7 +38450,7 @@
                       width: "270",
                       src: i.videoUrl,
                       title: i.videoTitle,
-                      frameborder: "0",
+                      frameBorder: "0",
                       allow:
                         "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
                       allowfullscreen: !0

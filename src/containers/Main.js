@@ -11,16 +11,13 @@ import Blogs from "./blogs/Blogs";
 import BottomFixedContainer from "./bottomFixedContainer/BottomFixedContainer";
 import Education from "./education/Education";
 import Greeting from "./greeting/Greeting";
-import Podcast from "./podcast/Podcast";
 import Profile from "./profile/Profile";
 import Projects from "./projects/Projects";
 import StackProgress from "./skillProgress/skillProgress";
 import Skills from "./skills/Skills";
 import SplashScreen from "./splashScreen/SplashScreen";
-import Talks from "./talks/Talks";
 import ThankContainer from "./thank/thank";
 import ScrollToTopButton from "./topbutton/Top";
-import Twitter from "./twitter-embed/twitter";
 import WorkExperience from "./workExperience/WorkExperience";
 
 const Main = () => {
@@ -63,9 +60,9 @@ const Main = () => {
             <StartupProject />
             <Achievement />
             <Blogs />
-            <Talks />
+            {/* <Talks />
             <Twitter />
-            <Podcast />
+            <Podcast /> */}
             <ThankContainer />
             <Profile />
             <Footer />
