@@ -25,6 +25,7 @@ export default function Footer() {
           </a>{" "}
           for the theme
         </p>
+        <p style={{color: "white", textAlign: "center"}}>v1.0.0</p>
       </div>
     </Fade>
   );
