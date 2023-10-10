@@ -207,34 +207,6 @@ const workExperiences = {
       ]
     },
     {
-      role: "Web & Mobile Lead Developer",
-      company: "Capgemini",
-      place: "Paris, FRANCE (remote)",
-      companylogo: require("./assets/images/capgeminiLogo.png"),
-      date: "August 2022 – Present",
-      desc1:
-        "Capgemini's Visual Production Studio, Studio 147, manages a vast array of device references.",
-      desc2:
-        "As a freelance developer, I oversaw the creation of the Studio 147 inventory app, which features a back-office ReactJS web application for registering devices and users, and a Flutter mobile app for Studio 147's team to easily borrow and return these devices.",
-      descBullets: [
-        "QR code scanner to identify & book hundreds of products & devices",
-        "Access all the products description & availability",
-        "Backend with Nestjs/Typescript & Postgresql"
-      ],
-      recommendations: [
-        {
-          link: "https://www.linkedin.com/in/vincent-cornut-1219b15/",
-          name: "Vincent Cornut"
-        },
-        {
-          link: "https://www.linkedin.com/in/arthur-tran-77196955/",
-          name: "Arthur Tran"
-        }
-      ],
-      pdfTitle: "GDE147",
-      pdfUrl: "https://pitch.com/embed/fc058cf9-29cd-4f25-8576-7dac9b39e8a0"
-    },
-    {
       role: "Fullstack & Mobile Lead Developer",
       company: "Yakadir",
       place: "Lille, FRANCE (remote)",
@@ -271,6 +243,84 @@ const workExperiences = {
           url: "https://yakadir.org/"
         }
       ]
+    },
+
+    {
+      role: "CTO",
+      company: "La carte green",
+      place: "Lausanne, Switzerland",
+      companylogo: require("./assets/images/la_carte_green.png"),
+      date: "Since Aug 2023",
+      desc1:
+        "La carte green is the app to enjoy the best of Lausanne with FREE offers and discounts.",
+      desc2:
+        "I started as a freelance developer then got into the adventure as associate in the role of CTO. I have developed the mobile app from scratch to production. I have also led the dev of our backoffice, with an external fullstack freelance developer.",
+      recommendations: [
+        {
+          link: "https://www.linkedin.com/in/matthieu-saussaye-0023a114a/",
+          name: "Matthieu SAUSSAYE"
+        },
+        {
+          link: "https://www.linkedin.com/in/paul-margain",
+          name: "Paul Margain"
+        }
+      ],
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://lacartegreen.ch/"
+        }
+      ]
+    },
+    {
+      role: "Fullstack engineer",
+      company: "Winchat",
+      place: "Paris, FRANCE (remote)",
+      companylogo: require("./assets/images/winchat.png"),
+      date: "Sept 2023",
+      desc1: "Winchat is the AI concierge for premium eCommerce brands.",
+      desc2:
+        "As a freelance developer, I have helped Winchat in emergency 2 days before the final relase to production, to fix an issue with Firebase/Google Cloud Functions & Firestore.",
+      recommendations: [
+        {
+          link: "https://www.linkedin.com/in/elise-perpetua-1596803a/",
+          name: "Elise Perpetua"
+        }
+      ],
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.winchat.ai/"
+        }
+      ]
+    },
+    {
+      role: "Web & Mobile Lead Developer",
+      company: "Capgemini",
+      place: "Paris, FRANCE (remote)",
+      companylogo: require("./assets/images/capgeminiLogo.png"),
+      date: "August 2022 – Present",
+      desc1:
+        "Capgemini's Visual Production Studio, Studio 147, manages a vast array of device references.",
+      desc2:
+        "As a freelance developer, I oversaw the creation of the Studio 147 inventory app, which features a back-office ReactJS web application for registering devices and users, and a Flutter mobile app for Studio 147's team to easily borrow and return these devices.",
+      descBullets: [
+        "QR code scanner to identify & book hundreds of products & devices",
+        "Access all the products description & availability",
+        "Backend with Nestjs/Typescript & Postgresql"
+      ],
+      recommendations: [
+        {
+          link: "https://www.linkedin.com/in/vincent-cornut-1219b15/",
+          name: "Vincent Cornut"
+        },
+        {
+          link: "https://www.linkedin.com/in/arthur-tran-77196955/",
+          name: "Arthur Tran"
+        }
+      ],
+      pdfTitle: "GDE147",
+      pdfUrl: "https://pitch.com/embed/fc058cf9-29cd-4f25-8576-7dac9b39e8a0"
     },
     {
       role: "Mobile Apps Lead Developer",
