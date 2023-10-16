@@ -215,7 +215,7 @@ const workExperiences = {
       desc1:
         "Yakadir is an emerging startup dedicated to promoting open dialogue on diverse healthcare topics",
       desc2:
-        "As a freelance developer, I reworked 90% of the Fluter mobile app & backoffice to release the version 2.",
+        "As a freelance developer, I reworked 90% of the Flutter mobile app & backoffice to release the version 2.",
       descBullets: [
         "Rework the projects architecture & design",
         "Add KPIs page on the backoffice",
