@@ -19,7 +19,7 @@ export default function BottomFixedContainer(props) {
       <h4>🚀 I am currently open for 👇</h4>
       {showFullContent ? (
         <>
-          <p>&#x2022; New mobile app missions as freelancer</p>
+          <p>&#x2022; Mobile apps project as freelancer</p>
         </>
       ) : (
         ""

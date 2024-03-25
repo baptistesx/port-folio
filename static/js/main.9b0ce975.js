@@ -4970,40 +4970,17 @@
             display: !0,
             schools: [
               {
-                schoolName: "INP ENSIMAG, Grenoble, FRANCE",
+                schoolName: "INP ENSIMAG & PHELMA, Grenoble, FRANCE",
                 logo: i(6766),
                 subHeader:
-                  "Master's specialty, Embedded Systems and Connected Objects",
-                duration: "September 2019 - September 2021",
-                desc: "Link, a proximity social network:",
-                descBullets: [
-                  "Connect with people around you",
-                  "Stack: Cordova (HTML, css, js), node.js, MongoDB"
-                ]
-              },
-              {
-                schoolName: "INP PHELMA, Grenoble, FRANCE",
-                logo: i(7093),
-                subHeader:
-                  "Master of Science in Physics, Electronics and Materials",
-                duration: "September 2018 - September 2019",
+                  "Master of Science in Physics, Electronics and Materials. Specialty, Embedded Systems and Connected Objects",
+                duration: "September 2018 - September 2021",
                 desc: "Cult'Connect, a smart greenhouse managment system:",
                 descBullets: [
                   "Smart modules conception (hardware & software)",
                   "Mobile app managment + backend",
-                  "Stack: C++, Flutter, node.js, MongoDB"
-                ]
-              },
-              {
-                schoolName:
-                  "University Institute of Technology, Grenoble, FRANCE",
-                logo: i(6024),
-                subHeader: "Bachelor of Science in Electronics and Computering",
-                duration: "September 2016 - Septembre 2018",
-                desc: "Ranked top 4 in the program. Took courses about:",
-                descBullets: [
-                  "Software Engineering, Electronics, ...",
-                  "Participation in a national robotics competition"
+                  "Stack: C++, Flutter, node.js, MongoDB",
+                  "Link, a proximity social network, stack: Cordova (HTML, css, js), node.js, MongoDB"
                 ]
               }
             ]

@@ -106,37 +106,17 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "INP ENSIMAG, Grenoble, FRANCE",
+      schoolName: "INP ENSIMAG & PHELMA, Grenoble, FRANCE",
       logo: require("./assets/images/ensimagLogo.png"),
-      subHeader: "Master's specialty, Embedded Systems and Connected Objects",
-      duration: "September 2019 - September 2021",
-      desc: "Link, a proximity social network:",
-      descBullets: [
-        "Connect with people around you",
-        "Stack: Cordova (HTML, css, js), node.js, MongoDB"
-      ]
-    },
-    {
-      schoolName: "INP PHELMA, Grenoble, FRANCE",
-      logo: require("./assets/images/phelmaLogo.png"),
-      subHeader: "Master of Science in Physics, Electronics and Materials",
-      duration: "September 2018 - September 2019",
-      desc: "Cult'Connect, a smart greenhouse management system:",
+      subHeader:
+        "Master of Science in Physics, Electronics and Materials. Specialty, Embedded Systems and Connected Objects",
+      duration: "September 2018 - September 2021",
+      desc: "Cult'Connect, a smart greenhouse managment system:",
       descBullets: [
         "Smart modules conception (hardware & software)",
-        "Mobile Flutter app management with Clean Architecture + backend",
-        "Stack: C++, Flutter, node.js, MongoDB"
-      ]
-    },
-    {
-      schoolName: "University Institute of Technology, Grenoble, FRANCE",
-      logo: require("./assets/images/iut1Logo.png"),
-      subHeader: "Bachelor of Science in Electronics and Computering",
-      duration: "September 2016 - September 2018",
-      desc: "Ranked top 4 in the program. Took courses about:",
-      descBullets: [
-        "Software Engineering, Electronics, ...",
-        "Participation in a national robotics competition"
+        "Mobile app management & backend",
+        "Stack: C++, Flutter, node.js, MongoDB",
+        "Link, a proximity social network, stack: Cordova (HTML, css, js), node.js, MongoDB"
       ]
     }
   ]
@@ -207,6 +187,60 @@ const workExperiences = {
       ]
     },
     {
+      role: "Flutter & Fullstack engineer",
+      company: "EdenRed",
+      place: "Paris, FRANCE (remote)",
+      companylogo: require("./assets/images/edenred.png"),
+      date: "Nov 2023 - Apr 2024",
+      desc1: "Edenred is the everyday platform for people at work.",
+      desc2:
+        "As a freelance developer, I have developed within a team and from scratch, the Flutter mobile app for the EV platform, the new big offer of Edenred. I have also taken part in the GraphQL api implementation.",
+      descBullets: [
+        "SSO Authentication",
+        "Google Maps implementation",
+        "Use of Riverpod state management & GoRouter",
+        "GraphQL & REST apis development"
+      ],
+      recommendations: [
+        {
+          link: "https://www.linkedin.com/in/thomas-sales-365b5212/",
+          name: "Thomas Sales"
+        },
+        {
+          link: "https://www.linkedin.com/in/jonathanjalouzot/",
+          name: "Jonathan Jalouzot"
+        }
+      ]
+    },
+    {
+      role: "Web & Mobile Lead Developer",
+      company: "Capgemini",
+      place: "Paris, FRANCE (remote)",
+      companylogo: require("./assets/images/capgeminiLogo.png"),
+      date: "August 2022 – Present",
+      desc1:
+        "Capgemini's Visual Production Studio, Studio 147, manages a vast array of device references.",
+      desc2:
+        "As a freelance developer, I oversaw the creation of the Studio 147 inventory app, which features a back-office ReactJS web application for registering devices and users, and a Flutter mobile app for Studio 147's team to easily borrow and return these devices.",
+      descBullets: [
+        "QR code scanner to identify & book hundreds of products & devices",
+        "Access all the products description & availability",
+        "Backend with Nestjs/Typescript & Postgresql"
+      ],
+      recommendations: [
+        {
+          link: "https://www.linkedin.com/in/vincent-cornut-1219b15/",
+          name: "Vincent Cornut"
+        },
+        {
+          link: "https://www.linkedin.com/in/arthur-tran-77196955/",
+          name: "Arthur Tran"
+        }
+      ],
+      pdfTitle: "GDE147",
+      pdfUrl: "https://pitch.com/embed/fc058cf9-29cd-4f25-8576-7dac9b39e8a0"
+    },
+    {
       role: "Fullstack & Mobile Lead Developer",
       company: "Yakadir",
       place: "Lille, FRANCE (remote)",
@@ -272,56 +306,7 @@ const workExperiences = {
         }
       ]
     },
-    {
-      role: "Fullstack engineer",
-      company: "Winchat",
-      place: "Paris, FRANCE (remote)",
-      companylogo: require("./assets/images/winchat.png"),
-      date: "Sept 2023",
-      desc1: "Winchat is the AI concierge for premium eCommerce brands.",
-      desc2:
-        "As a freelance developer, I have helped Winchat in emergency 2 days before the final relase to production, to fix an issue with Firebase/Google Cloud Functions & Firestore.",
-      recommendations: [
-        {
-          link: "https://www.linkedin.com/in/elise-perpetua-1596803a/",
-          name: "Elise Perpetua"
-        }
-      ],
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://www.winchat.ai/"
-        }
-      ]
-    },
-    {
-      role: "Web & Mobile Lead Developer",
-      company: "Capgemini",
-      place: "Paris, FRANCE (remote)",
-      companylogo: require("./assets/images/capgeminiLogo.png"),
-      date: "August 2022 – Present",
-      desc1:
-        "Capgemini's Visual Production Studio, Studio 147, manages a vast array of device references.",
-      desc2:
-        "As a freelance developer, I oversaw the creation of the Studio 147 inventory app, which features a back-office ReactJS web application for registering devices and users, and a Flutter mobile app for Studio 147's team to easily borrow and return these devices.",
-      descBullets: [
-        "QR code scanner to identify & book hundreds of products & devices",
-        "Access all the products description & availability",
-        "Backend with Nestjs/Typescript & Postgresql"
-      ],
-      recommendations: [
-        {
-          link: "https://www.linkedin.com/in/vincent-cornut-1219b15/",
-          name: "Vincent Cornut"
-        },
-        {
-          link: "https://www.linkedin.com/in/arthur-tran-77196955/",
-          name: "Arthur Tran"
-        }
-      ],
-      pdfTitle: "GDE147",
-      pdfUrl: "https://pitch.com/embed/fc058cf9-29cd-4f25-8576-7dac9b39e8a0"
-    },
+
     {
       role: "Mobile Apps Lead Developer",
       company: "Minute Drone",
