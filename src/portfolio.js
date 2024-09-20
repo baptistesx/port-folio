@@ -153,7 +153,7 @@ const workExperiences = {
     {
       role: "Mobile Apps Lead Developer",
       company: "Meowtel",
-      place: "San Francisco, CA, USA (remote)",
+      place: "San Francisco, CA, USA (contractor)",
       companylogo: require("./assets/images/meowtelLogo.png"),
       date: "May 2022 – May 2023",
       desc1:
@@ -189,12 +189,12 @@ const workExperiences = {
     {
       role: "Flutter & Fullstack engineer",
       company: "EdenRed",
-      place: "Paris, FRANCE (remote)",
+      place: "Paris, FRANCE (contractor)",
       companylogo: require("./assets/images/edenred.png"),
       date: "Nov 2023 - Apr 2024",
       desc1: "Edenred is the everyday platform for people at work.",
       desc2:
-        "As a freelance developer, I have developed within a team and from scratch, the Flutter mobile app for the EV platform, the new big offer of Edenred. I have also taken part in the GraphQL api implementation.",
+        "As a developer contractor, I have developed within a team and from scratch, the Flutter mobile app for the EV platform, the new big offer of Edenred. I have also taken part in the GraphQL api implementation.",
       descBullets: [
         "SSO Authentication",
         "Google Maps implementation",
@@ -215,13 +215,13 @@ const workExperiences = {
     {
       role: "Web & Mobile Lead Developer",
       company: "Capgemini",
-      place: "Paris, FRANCE (remote)",
+      place: "Paris, FRANCE (contractor)",
       companylogo: require("./assets/images/capgeminiLogo.png"),
       date: "August 2022 – Present",
       desc1:
         "Capgemini's Visual Production Studio, Studio 147, manages a vast array of device references.",
       desc2:
-        "As a freelance developer, I oversaw the creation of the Studio 147 inventory app, which features a back-office ReactJS web application for registering devices and users, and a Flutter mobile app for Studio 147's team to easily borrow and return these devices.",
+        "As a developer contractor, I oversaw the creation of the Studio 147 inventory app, which features a back-office ReactJS web application for registering devices and users, and a Flutter mobile app for Studio 147's team to easily borrow and return these devices.",
       descBullets: [
         "QR code scanner to identify & book hundreds of products & devices",
         "Access all the products description & availability",
@@ -243,13 +243,13 @@ const workExperiences = {
     {
       role: "Fullstack & Mobile Lead Developer",
       company: "Yakadir",
-      place: "Lille, FRANCE (remote)",
+      place: "Lille, FRANCE (contractor)",
       companylogo: require("./assets/images/yakadirLogo.png"),
       date: "May 2023 – September 2023",
       desc1:
         "Yakadir is an emerging startup dedicated to promoting open dialogue on diverse healthcare topics",
       desc2:
-        "As a freelance developer, I reworked 90% of the Flutter mobile app & backoffice to release the version 2.",
+        "As a developer contractor, I reworked 90% of the Flutter mobile app & backoffice to release the version 2.",
       descBullets: [
         "Rework the projects architecture & design",
         "Add KPIs page on the backoffice",
@@ -288,7 +288,7 @@ const workExperiences = {
       desc1:
         "La carte green is the app to enjoy the best of Lausanne with FREE offers and discounts.",
       desc2:
-        "I started as a freelance developer then got into the adventure as associate in the role of CTO. I have developed the mobile app from scratch to production. I have also led the dev of our backoffice, with an external fullstack freelance developer.",
+        "I started as a developer contractor then got into the adventure as associate in the role of CTO. I have developed the mobile app from scratch to production. I have also led the dev of our backoffice, with an external fullstack freelance developer.",
       recommendations: [
         {
           link: "https://www.linkedin.com/in/matthieu-saussaye-0023a114a/",
@@ -308,29 +308,52 @@ const workExperiences = {
     },
 
     {
-      role: "Mobile Apps Lead Developer",
-      company: "Minute Drone",
-      place: "Grenoble, FRANCE (hybrid)",
-      companylogo: require("./assets/images/minuteDroneLogo.png"),
-      date: "Nov 2022 – Jan 2023",
-      desc1:
-        "MinuteDrone is one of the premier providers of professional drone education in France.",
+      role: "Full Stack Engineer",
+      company: "L'agence Brioche",
+      place: "Paris, FRANCE (contractor)",
+      companylogo: require("./assets/images/lagencbriocheLogo.png"),
+      date: "Apr 2024 – Sep 2024",
+      desc1: "L'agence Brioche is a fast growing babysitting agency in Paris.",
       desc2:
-        "As a freelance developer, I created the Flutter mobile app to configure MinuteDrones' new custom drone.",
+        "As a developer contractor, I developed from scratch the new Flutter mobile app while adding new features as punctual babysitter booking & payment, push notifications and more. I've also worked on the Next.js backoffice and Go Backend (with Sqlite db).",
 
       recommendations: [
         {
-          link: "https://www.linkedin.com/in/aymenahmed/",
-          name: "Aymen Ahmed"
+          link: "https://www.linkedin.com/in/julia-midart-822b97116",
+          name: "Julia Midart"
         }
       ],
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://minutedrone.com/"
+          url: "https://lagencebrioche.fr/"
         }
       ]
     }
+    // {
+    //   role: "Mobile Apps Lead Developer",
+    //   company: "Minute Drone",
+    //   place: "Grenoble, FRANCE (contractor)",
+    //   companylogo: require("./assets/images/minuteDroneLogo.png"),
+    //   date: "Nov 2022 – Jan 2023",
+    //   desc1:
+    //     "MinuteDrone is one of the premier providers of professional drone education in France.",
+    //   desc2:
+    //     "As a developer contractor, I created the Flutter mobile app to configure MinuteDrones' new custom drone.",
+
+    //   recommendations: [
+    //     {
+    //       link: "https://www.linkedin.com/in/aymenahmed/",
+    //       name: "Aymen Ahmed"
+    //     }
+    //   ],
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "https://minutedrone.com/"
+    //     }
+    //   ]
+    // }
   ]
 };
 
@@ -342,12 +365,12 @@ const otherProjects = {
     {
       role: "Fullstack Lead Developer",
       company: "ENTPE",
-      place: "Lyon, FRANCE (remote)",
+      place: "Lyon, FRANCE (contractor)",
       companylogo: require("./assets/images/tramsLogo.png"),
       date: "Oct 2020 – Present",
       desc1: "ENTPE is a renowned French engineering school located in Lyon.",
       desc2:
-        "As a freelance developer, I created version 1 and 2 of the back office and mobile app for TRAMS, a major annual student sports competition.",
+        "As a developer contractor, I created version 1 and 2 of the back office and mobile app for TRAMS, a major annual student sports competition.",
       desc3:
         "The back office, accessible to administrators, facilitates the registration of data that is displayed on the Flutter mobile app. The app features an information feed, game schedules and results, teams and schools ranking, rules, sponsors, and an interactive map.",
       // descBullets: [
