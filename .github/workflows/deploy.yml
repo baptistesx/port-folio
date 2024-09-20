@@ -22,7 +22,7 @@ jobs:
       - name: Set up Node.js 20.x
         uses: actions/setup-node@v3
         with:
-          node-version: '20.x'
+          node-version: "20.x"
       - name: Install and Build 🔧 # Build the Project
         run: |
           npm install
@@ -33,6 +33,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This is provided by GitHub.
           BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: build # The folder the action should deploy.
-runs:
-  using: 'node20'
-  main: 'main.js'
