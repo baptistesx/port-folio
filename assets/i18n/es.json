@@ -4,20 +4,17 @@
   "m.ogtitle": "Baptiste Seux — Desarrollador Flutter freelance y CTO",
   "m.ogdesc": "Un CTO que convierte tu idea en una aplicación que funciona en producción. Flutter iOS y Android, backend e infraestructura incluidos.",
   "m.locale": "es_ES",
-
   "a.skip": "Ir al contenido",
   "a.nav": "Navegación principal",
   "a.lang": "Idioma",
   "a.dark": "Cambiar al tema oscuro",
   "a.light": "Cambiar al tema claro",
-
   "n.work": "Proyectos",
   "n.services": "Servicios",
   "n.stack": "Stack",
   "n.about": "Perfil",
   "n.cta": "Contactar",
-
-  "h.status": "Disponible a tiempo completo · respuesta en 1\u00a0h de media",
+  "h.status": "Disponible a tiempo completo · respuesta en 1 h de media",
   "h.title": "<span class=\"quiet\">Más que un desarrollador:</span> un CTO que convierte tu idea en una aplicación que funciona <em class=\"hl\">en producción</em>.",
   "h.lead": "Aplicaciones iOS y Android desde una única base de código Flutter — backend, infraestructura y publicación en las tiendas incluidos. Seis años como freelance, treinta y seis misiones.",
   "h.cta1": "Hablemos de tu proyecto",
@@ -28,35 +25,30 @@
   "h.f2l": "misiones",
   "h.f3": "5 estrellas",
   "h.f3l": "en todas las reseñas de Malt",
-  "h.f4": "650\u00a0€",
+  "h.f4": "650 €",
   "h.f4l": "por día",
-
   "t.title": "Seis años en producción, sin interrupción",
   "t.note": "2020 — 2026 · haz clic en una barra para abrir el caso",
   "t.now": "2024 — hoy",
   "t.brioche": "App Flutter v2 (notificaciones push, nuevas funcionalidades, UX), backend en Go, back office Next.js, Docker en VPS.",
-
   "w.eyebrow": "Proyectos",
   "w.title": "Productos entregados, no prototipos.",
   "w.lead": "Legal, salud, energía, marketplaces. Siempre la misma exigencia: una aplicación que usuarios reales abren cada día.",
   "w.clientsAlt": "Muro de logotipos de clientes: Edenred, Capgemini, Lexaro, Meowtel, L’Agence Brioche, Winchat, ENTPE, La Carte Green, Minutedrone, Yakadir.",
   "w.clientsCap": "Equipos que me han confiado su producto desde 2020",
-
   "c.client": "Cliente",
   "c.role": "Rol",
   "c.period": "Periodo",
   "c.site": "Sitio",
-
   "lex.role": "Cofundador y CTO",
   "lex.h": "El SaaS que digitaliza las sustituciones entre abogados",
-  "lex.lead": "Cofundado con Me\u00a0Huron, abogada del Colegio de Grenoble, que aporta la experiencia jurídica; yo llevo el producto y el código de principio a fin. Un abogado que no puede asistir publica la sustitución, un colega la acepta en unos minutos, y la misión queda registrada y pagada dentro de la aplicación.",
+  "lex.lead": "Cofundado con Me Huron, abogada del Colegio de Grenoble, que aporta la experiencia jurídica; yo llevo el producto y el código de principio a fin. Un abogado que no puede asistir publica la sustitución, un colega la acepta en unos minutos, y la misión queda registrada y pagada dentro de la aplicación.",
   "lex.f1": "App Flutter para iOS, Android y web: marketplace, chat cifrado de extremo a extremo, notificaciones push",
   "lex.f2": "Backend Supabase / PostgreSQL: más de 450 migraciones, más de 70 Edge Functions, Row Level Security en todas las tablas",
   "lex.f3": "Pagos con Stripe Connect y back office en Next.js",
   "lex.f4": "Infraestructura self-hosted en un VPS de OVH, monitorización con Prometheus / Grafana / Loki, CI/CD con GitHub Actions",
   "lex.f5": "RGPD by design",
   "lex.alt": "Aplicación LEXARO: panel de un abogado con las solicitudes de sustitución en curso y sus estadísticas de audiencias.",
-
   "meo.role": "Tech lead móvil",
   "meo.h": "La app del líder estadounidense del cuidado de gatos",
   "meo.lead": "Producto móvil retomado y después una v2 reconstruida desde cero dentro de un equipo internacional — junto a los desarrolladores backend y formando a un desarrollador Flutter júnior. Un marketplace de dos caras: los dueños que buscan cuidador por un lado, los cuidadores que gestionan su actividad por el otro.",
@@ -66,7 +58,6 @@
   "meo.f3": "Autenticación sin contraseña con código OTP y OAuth",
   "meo.f4": "Google Maps y notificaciones push con FCM",
   "meo.alt": "Aplicación Meowtel: panel de los dueños de gatos y panel de los cuidadores.",
-
   "ede.role": "Desarrollador Flutter y full-stack",
   "ede.h": "La tarjeta de combustible de los vehículos eléctricos",
   "ede.lead": "Desarrollada desde la primera pantalla hasta la puesta en producción: el conductor vincula su tarjeta RED PRO, declara su vehículo y encuentra los puntos de recarga realmente compatibles.",
@@ -74,16 +65,14 @@
   "ede.f2": "Alta del vehículo y elección de los conectores de recarga (CCS, Tipo 2, CHAdeMO)",
   "ede.f3": "Dos API integradas, REST y GraphQL, en Node.js / TypeScript",
   "ede.alt": "Aplicación Edenred: elección de los conectores de recarga y vinculación de la tarjeta RED PRO por NFC.",
-
   "yak.role": "Ingeniero Flutter y full-stack",
   "yak.period": "2023 · 6 meses",
-  "yak.h": "Una app de salud reescrita al 90\u00a0%, entregada como v2",
-  "yak.lead": "Una base de código heredada retomada y después reescrita al 90\u00a0%, publicada en las tiendas como v2 dentro del plazo anunciado — sin perder usuarios por el camino.",
+  "yak.h": "Una app de salud reescrita al 90 %, entregada como v2",
+  "yak.lead": "Una base de código heredada retomada y después reescrita al 90 %, publicada en las tiendas como v2 dentro del plazo anunciado — sin perder usuarios por el camino.",
   "yak.f1": "Página de KPIs añadida al back office",
   "yak.f2": "Seguimiento de la estabilidad con Firebase Crashlytics",
   "yak.f3": "Backend Hasura / GraphQL / PostgreSQL / Node.js en Google Cloud",
   "yak.alt": "Aplicación de salud Yakadir: perfil con puntos, muro de actividades y mensajería de voz.",
-
   "cap.role": "Tech lead web y móvil",
   "cap.h": "548 equipos controlados, escaneados por código QR",
   "cap.lead": "El estudio de producción gestiona su parque de material desde un back office y una app móvil: cada equipo se escanea, se reserva y se devuelve — y ya nadie busca un convertidor por los pasillos.",
@@ -91,7 +80,6 @@
   "cap.f2": "App móvil Flutter con escaneo de códigos QR",
   "cap.f3": "Backend NestJS / TypeScript / PostgreSQL",
   "cap.alt": "Studio 147: ficha de equipo escaneada por código QR, lista de los 548 productos y seguimiento de las reservas.",
-
   "tra.role": "Tech lead",
   "tra.h": "Tres versiones en cinco años, más de 1000 estudiantes por edición",
   "tra.lead": "La competición deportiva interescolar tiene su app: muro de noticias, calendario, resultados en directo y mapa del recinto. Renovada cada año, de la v1 a la v3.",
@@ -99,7 +87,6 @@
   "tra.f2": "Back office completo para el equipo organizador",
   "tra.f3": "Tres rediseños sucesivos, sin corte entre ediciones",
   "tra.alt": "Aplicación TRAMS: mapa interactivo del recinto de la competición, pantalla de cierre y back office.",
-
   "may.role": "Desarrollador móvil React Native",
   "may.period": "2023 – 2024 · 3 misiones",
   "may.poster": "La app de los (futuros) padres",
@@ -111,7 +98,6 @@
   "may.f3": "Componentes y páginas realineados con la nueva identidad",
   "may.alt1": "Pantalla «Mi seguimiento» de la app May: comidas, sueño y curva de crecimiento del niño.",
   "may.alt2": "Pantalla «Mensajes» de la app May: conversaciones con los expertos de salud.",
-
   "s.eyebrow": "Servicios",
   "s.title": "Tres formas de trabajar juntos.",
   "s.lead": "Lo que tienen en común: asumo la decisión técnica de principio a fin, y te digo que no cuando una idea cuesta más de lo que aporta.",
@@ -127,7 +113,6 @@
   "s3.h": "Un lead Flutter integrado en tu squad",
   "s3.p": "Lead o desarrollador sénior dentro de tu equipo: arquitectura, revisión de código, desarrollo del talento ya presente, entregas al ritmo de tus sprints.",
   "s3.o": "Entregable: un equipo que avanza más rápido después de irme que antes de llegar.",
-
   "k.eyebrow": "Stack",
   "k.title": "Un solo interlocutor, de la primera pantalla a la monitorización.",
   "k.mobile": "Móvil",
@@ -137,7 +122,6 @@
   "k.compliance": "Cumplimiento",
   "k.gdpr": "RGPD by design",
   "k.note": "Una única base de código Flutter produce las dos aplicaciones, iOS y Android. Pagas un desarrollo, no dos — y una corrección sale por los dos lados a la vez.",
-
   "r.eyebrow": "Reseñas de clientes",
   "r.title": "Solo reseñas de 5 estrellas en Malt.",
   "r.stars": "Valoración: 5 sobre 5",
@@ -150,7 +134,6 @@
   "r.c3": "Presidente, Yakadir",
   "r.all": "Todas las reseñas son públicas y verificadas, en el perfil de Malt.",
   "r.cta": "Leer las reseñas en Malt",
-
   "p.eyebrow": "Perfil",
   "p.title": "Primero ingeniero, después emprendedor.",
   "p.p1": "Ingeniero por Grenoble INP — PHELMA y luego ENSIMAG. Seis años como freelance en productos móviles y, desde 2024, cofundador y CTO de LEXARO.",
@@ -159,23 +142,23 @@
   "p.t1": "Disponibilidad",
   "p.v1": "Tiempo completo",
   "p.t2": "Organización",
-  "p.v2": "100\u00a0% en remoto, desplazamientos puntuales",
+  "p.v2": "100 % en remoto, desplazamientos puntuales",
   "p.t3": "Capacidad de respuesta",
-  "p.v3": "Respuesta en 1\u00a0h de media",
+  "p.v3": "Respuesta en 1 h de media",
   "p.t4": "Tarifa",
-  "p.v4": "650\u00a0€ por día",
+  "p.v4": "650 € por día",
   "p.alt": "Retrato de Baptiste Seux.",
-
   "x.eyebrow": "Contacto",
   "x.title": "Hablemos de lo que quieres poner en producción.",
   "x.lead": "Describe tu proyecto en unas líneas: tendrás una primera respuesta el mismo día y una opinión técnica honesta — aunque no sea yo quien necesitas.",
   "x.cta1": "Contactar en Malt",
   "x.m1": "Disponible a tiempo completo",
-  "x.m2": "100\u00a0% en remoto",
-  "x.m3": "650\u00a0€ por día",
-  "x.m4": "Respuesta en 1\u00a0h de media",
-
-  "f.name": "<b>Baptiste Seux</b> — Desarrollador Flutter freelance y CTO, Grenoble",
+  "x.m2": "100 % en remoto",
+  "x.m3": "650 € por día",
+  "x.m4": "Respuesta en 1 h de media",
+  "f.name": "<b>Baptiste Seux</b> — Desarrollador Flutter freelance y CTO, Valence",
   "f.aria": "Enlaces externos",
-  "f.top": "Volver arriba"
+  "f.top": "Volver arriba",
+  "lb.close": "Cerrar",
+  "lb.label": "Imagen a tamaño completo"
 }

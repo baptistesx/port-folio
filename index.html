@@ -421,8 +421,10 @@ html:not(.js) .tl__bar, html.rm .tl__bar { transform: scaleX(1); }
 }
 .cover img { width: 100%; height: 100%; object-fit: cover; }
 @media (max-width: 640px) {
-  .case > .cover:not(.cover--may) { aspect-ratio: 5 / 4; }
-  .case > .cover:not(.cover--may) img { object-position: 74% center; }
+  /* Les visuels portent un titre incrusté : on affiche l'image entière
+     plutôt que de la recadrer, quitte à la réduire. */
+  .case > .cover:not(.cover--may) { aspect-ratio: auto; }
+  .case > .cover:not(.cover--may) img { height: auto; object-fit: contain; }
 }
 
 /* Mur de logos : ouverture de la section, pas une étude de cas */
@@ -487,6 +489,34 @@ html:not(.js) .tl__bar, html.rm .tl__bar { transform: scaleX(1); }
   .may__txt { display: none; }
   .may__shots { gap: 7cqw; padding-inline: 7cqw; }
   .may__shots img { width: 36cqw; }
+}
+
+
+/* --- Visionneuse plein écran ----------------------------------- */
+.cover[data-zoom] { cursor: zoom-in; }
+.cover[data-zoom]:focus-visible { outline: 3px solid var(--accent-2); outline-offset: 3px; }
+.lightbox {
+  position: fixed; inset: 0; z-index: 200; display: none;
+  place-items: center; padding: clamp(12px, 3vw, 44px);
+  background: var(--bg); background: rgba(0, 0, 0, .82);
+  -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px);
+}
+.lightbox.is-open { display: grid; }
+.lightbox img {
+  max-width: 100%; max-height: 100%; width: auto; height: auto;
+  object-fit: contain; border-radius: var(--r);
+}
+.lightbox__close {
+  position: absolute; top: clamp(10px, 2vw, 24px); right: clamp(10px, 2vw, 24px);
+  width: 44px; height: 44px; display: grid; place-items: center; padding: 0;
+  border-radius: 50%; border: 1px solid var(--line);
+  background: var(--surface); color: var(--fg);
+  font: inherit; font-size: 22px; line-height: 1; cursor: pointer;
+}
+.lightbox__close:focus-visible { outline: 3px solid var(--accent-2); outline-offset: 2px; }
+@media (prefers-reduced-motion: no-preference) {
+  .lightbox.is-open img { animation: lbIn .18s ease-out both; }
+  @keyframes lbIn { from { opacity: 0; transform: scale(.985); } to { opacity: 1; transform: none; } }
 }
 
 /* --- 11. Prestations ------------------------------------------- */
@@ -759,7 +789,7 @@ html.rm [data-reveal] { opacity: 1; transform: none; transition: none; }
 
       <!-- Mur de logos clients -->
       <figure class="clients" data-reveal>
-        <div class="cover">
+        <div class="cover" data-zoom tabindex="0" role="button">
           <picture>
             <source type="image/avif" sizes="(min-width: 1400px) 1168px, 92vw"
                     srcset="assets/img/cases/clients-760.avif 760w, assets/img/cases/clients-1240.avif 1240w, assets/img/cases/clients-1860.avif 1860w, assets/img/cases/clients-2480.avif 2480w">
@@ -777,7 +807,7 @@ html.rm [data-reveal] { opacity: 1; transform: none; transition: none; }
 
         <!-- LEXARO -->
         <article class="case" id="cas-lexaro" data-reveal>
-          <div class="cover">
+          <div class="cover" data-zoom tabindex="0" role="button">
             <picture>
               <source type="image/avif" sizes="(min-width: 1400px) 1168px, 92vw"
                       srcset="assets/img/cases/lexaro-760.avif 760w, assets/img/cases/lexaro-1240.avif 1240w, assets/img/cases/lexaro-1860.avif 1860w, assets/img/cases/lexaro-2480.avif 2480w">
@@ -819,7 +849,7 @@ html.rm [data-reveal] { opacity: 1; transform: none; transition: none; }
 
         <!-- MEOWTEL -->
         <article class="case" id="cas-meowtel" data-reveal>
-          <div class="cover">
+          <div class="cover" data-zoom tabindex="0" role="button">
             <picture>
               <source type="image/avif" sizes="(min-width: 1400px) 1168px, 92vw"
                       srcset="assets/img/cases/meowtel-760.avif 760w, assets/img/cases/meowtel-1240.avif 1240w, assets/img/cases/meowtel-1860.avif 1860w, assets/img/cases/meowtel-2480.avif 2480w">
@@ -863,7 +893,7 @@ html.rm [data-reveal] { opacity: 1; transform: none; transition: none; }
 
         <!-- EDENRED -->
         <article class="case" id="cas-edenred" data-reveal>
-          <div class="cover">
+          <div class="cover" data-zoom tabindex="0" role="button">
             <picture>
               <source type="image/avif" sizes="(min-width: 1400px) 1168px, 92vw"
                       srcset="assets/img/cases/edenred-760.avif 760w, assets/img/cases/edenred-1240.avif 1240w, assets/img/cases/edenred-1860.avif 1860w, assets/img/cases/edenred-2480.avif 2480w">
@@ -900,7 +930,7 @@ html.rm [data-reveal] { opacity: 1; transform: none; transition: none; }
 
         <!-- YAKADIR -->
         <article class="case" id="cas-yakadir" data-reveal>
-          <div class="cover">
+          <div class="cover" data-zoom tabindex="0" role="button">
             <picture>
               <source type="image/avif" sizes="(min-width: 1400px) 1168px, 92vw"
                       srcset="assets/img/cases/yakadir-760.avif 760w, assets/img/cases/yakadir-1240.avif 1240w, assets/img/cases/yakadir-1860.avif 1860w, assets/img/cases/yakadir-2480.avif 2480w">
@@ -935,7 +965,7 @@ html.rm [data-reveal] { opacity: 1; transform: none; transition: none; }
 
         <!-- CAPGEMINI -->
         <article class="case" id="cas-capgemini" data-reveal>
-          <div class="cover">
+          <div class="cover" data-zoom tabindex="0" role="button">
             <picture>
               <source type="image/avif" sizes="(min-width: 1400px) 1168px, 92vw"
                       srcset="assets/img/cases/capgemini-760.avif 760w, assets/img/cases/capgemini-1240.avif 1240w, assets/img/cases/capgemini-1860.avif 1860w, assets/img/cases/capgemini-2480.avif 2480w">
@@ -972,7 +1002,7 @@ html.rm [data-reveal] { opacity: 1; transform: none; transition: none; }
 
         <!-- TRAMS -->
         <article class="case" id="cas-trams" data-reveal>
-          <div class="cover">
+          <div class="cover" data-zoom tabindex="0" role="button">
             <picture>
               <source type="image/avif" sizes="(min-width: 1400px) 1168px, 92vw"
                       srcset="assets/img/cases/trams-760.avif 760w, assets/img/cases/trams-1240.avif 1240w, assets/img/cases/trams-1860.avif 1860w, assets/img/cases/trams-2480.avif 2480w">
@@ -1008,7 +1038,7 @@ html.rm [data-reveal] { opacity: 1; transform: none; transition: none; }
 
         <!-- MAY -->
         <article class="case" id="cas-may" data-reveal>
-          <div class="cover cover--may">
+          <div class="cover cover--may" data-zoom tabindex="0" role="button">
             <div class="may__txt">
               <span class="may__rule" aria-hidden="true"></span>
               <span class="may__id">May · 2023 — 2024</span>
@@ -1265,7 +1295,7 @@ html.rm [data-reveal] { opacity: 1; transform: none; transition: none; }
 
 <footer class="foot">
   <div class="wrap foot__in">
-    <p data-i18n-html="f.name"><b>Baptiste Seux</b> — Freelance Flutter developer &amp; CTO, Grenoble</p>
+    <p data-i18n-html="f.name"><b>Baptiste Seux</b> — Freelance Flutter developer &amp; CTO, Valence</p>
     <nav class="foot__links" data-i18n-aria="f.aria" aria-label="External links">
       <a href="https://www.malt.fr/profile/baptisteseux" target="_blank" rel="noopener noreferrer">Malt</a>
       <a href="https://www.linkedin.com/in/baptiste-seux-11b793132/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
@@ -1273,6 +1303,12 @@ html.rm [data-reveal] { opacity: 1; transform: none; transition: none; }
     </nav>
   </div>
 </footer>
+
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Full-size image" data-i18n-aria="lb.label" hidden>
+  <button type="button" class="lightbox__close" aria-label="Close" data-i18n-aria="lb.close">&times;</button>
+  <img alt="">
+</div>
 
 <script src="assets/js/app.js" defer></script>
 </body>

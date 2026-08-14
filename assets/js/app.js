@@ -240,3 +240,54 @@
     for (var s = 0; s < targets.length; s++) navIo.observe(targets[s]);
   }
 })();
+
+/* --- Visionneuse plein écran ------------------------------------
+   Les visuels d'études de cas portent un titre incrusté : sur petit
+   écran ils deviennent illisibles. Un clic les ouvre en pleine page. */
+(function () {
+  var box = document.getElementById('lightbox');
+  if (!box) return;
+  var img = box.querySelector('img');
+  var closeBtn = box.querySelector('.lightbox__close');
+  var opener = null;
+
+  function bestSource(fig) {
+    var i = fig.querySelector('img');
+    if (!i) return null;
+    // currentSrc reflète le candidat srcset réellement choisi par le navigateur
+    return { src: i.currentSrc || i.src, alt: i.getAttribute('alt') || '' };
+  }
+
+  function open(fig) {
+    var s = bestSource(fig);
+    if (!s) return;
+    opener = fig;
+    img.src = s.src;
+    img.alt = s.alt;
+    box.hidden = false;
+    box.classList.add('is-open');
+    document.documentElement.style.overflow = 'hidden';
+    closeBtn.focus();
+  }
+
+  function close() {
+    box.classList.remove('is-open');
+    box.hidden = true;
+    img.removeAttribute('src');
+    document.documentElement.style.overflow = '';
+    if (opener) { opener.focus(); opener = null; }
+  }
+
+  document.querySelectorAll('[data-zoom]').forEach(function (fig) {
+    fig.addEventListener('click', function () { open(fig); });
+    fig.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(fig); }
+    });
+  });
+
+  closeBtn.addEventListener('click', close);
+  box.addEventListener('click', function (e) { if (e.target === box) close(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && box.classList.contains('is-open')) close();
+  });
+})();
