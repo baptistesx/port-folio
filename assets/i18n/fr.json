@@ -34,7 +34,7 @@
   "w.eyebrow": "Réalisations",
   "w.title": "Des produits livrés, pas des prototypes.",
   "w.lead": "Du juridique, de la santé, de l’énergie, des marketplaces. À chaque fois la même exigence : une application que des utilisateurs réels ouvrent tous les jours.",
-  "w.clientsAlt": "Mur de logos clients : Edenred, Capgemini, Lexaro, Meowtel, L’Agence Brioche, Winchat, ENTPE, La Carte Green, Minutedrone, Yakadir.",
+  "w.clientsAlt": "Mur de logos clients : Edenred, Capgemini, Lexaro, Meowtel, L’Agence Brioche, Winchat, ENTPE, La Carte Green, Minutedrone, Yakadir, Les Fruits de la Tour, May.",
   "w.clientsCap": "Ils m’ont confié leur produit depuis 2020",
   "c.client": "Client",
   "c.role": "Rôle",
@@ -89,15 +89,11 @@
   "tra.alt": "Application TRAMS : carte interactive du site de la compétition, écran de clôture et back-office.",
   "may.role": "Développeur mobile React Native",
   "may.period": "2023 – 2024 · 3 missions",
-  "may.poster": "L’app des (futurs) parents",
-  "may.posterSub": "4,9/5 sur les stores",
   "may.h": "L’app des (futurs) parents, notée 4,9/5 sur les stores",
   "may.lead": "Trois missions successives sur un produit grand public à forte audience. La troisième a été confiée sans consultation, sur la seule base des deux précédentes.",
   "may.f1": "A/B tests sur la conversion vers l’abonnement premium",
   "may.f2": "Flow complet du programme « Sommeil »",
   "may.f3": "Composants et pages réalignés sur la nouvelle charte",
-  "may.alt1": "Écran « Mon suivi » de l’app May : repas, sommeil et courbe de croissance de l’enfant.",
-  "may.alt2": "Écran « Messagerie » de l’app May : conversations avec les experts santé.",
   "s.eyebrow": "Prestations",
   "s.title": "Trois façons de travailler ensemble.",
   "s.lead": "Le point commun : je porte la décision technique de bout en bout, et je vous dis non quand une idée coûte plus cher qu’elle ne rapporte.",
@@ -160,5 +156,6 @@
   "f.aria": "Liens externes",
   "f.top": "Haut de page",
   "lb.close": "Fermer",
-  "lb.label": "Image en grand"
+  "lb.label": "Image en grand",
+  "may.alt": "Application May : l’écran « Mon suivi » avec repas, sommeil et courbe de croissance, à côté de l’écran « Messagerie » avec les experts santé."
 }

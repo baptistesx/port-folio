@@ -34,7 +34,7 @@
   "w.eyebrow": "Proyectos",
   "w.title": "Productos entregados, no prototipos.",
   "w.lead": "Legal, salud, energía, marketplaces. Siempre la misma exigencia: una aplicación que usuarios reales abren cada día.",
-  "w.clientsAlt": "Muro de logotipos de clientes: Edenred, Capgemini, Lexaro, Meowtel, L’Agence Brioche, Winchat, ENTPE, La Carte Green, Minutedrone, Yakadir.",
+  "w.clientsAlt": "Muro de logotipos de clientes: Edenred, Capgemini, Lexaro, Meowtel, L’Agence Brioche, Winchat, ENTPE, La Carte Green, Minutedrone, Yakadir, Les Fruits de la Tour, May.",
   "w.clientsCap": "Equipos que me han confiado su producto desde 2020",
   "c.client": "Cliente",
   "c.role": "Rol",
@@ -89,15 +89,11 @@
   "tra.alt": "Aplicación TRAMS: mapa interactivo del recinto de la competición, pantalla de cierre y back office.",
   "may.role": "Desarrollador móvil React Native",
   "may.period": "2023 – 2024 · 3 misiones",
-  "may.poster": "La app de los (futuros) padres",
-  "may.posterSub": "4,9/5 en las tiendas",
   "may.h": "La app de los (futuros) padres, con 4,9/5 en las tiendas",
   "may.lead": "Tres misiones sucesivas en un producto de gran público con mucha audiencia. La tercera se adjudicó sin concurso, únicamente por las dos anteriores.",
   "may.f1": "Tests A/B sobre la conversión a la suscripción premium",
   "may.f2": "Flujo completo del programa «Sueño»",
   "may.f3": "Componentes y páginas realineados con la nueva identidad",
-  "may.alt1": "Pantalla «Mi seguimiento» de la app May: comidas, sueño y curva de crecimiento del niño.",
-  "may.alt2": "Pantalla «Mensajes» de la app May: conversaciones con los expertos de salud.",
   "s.eyebrow": "Servicios",
   "s.title": "Tres formas de trabajar juntos.",
   "s.lead": "Lo que tienen en común: asumo la decisión técnica de principio a fin, y te digo que no cuando una idea cuesta más de lo que aporta.",
@@ -160,5 +156,6 @@
   "f.aria": "Enlaces externos",
   "f.top": "Volver arriba",
   "lb.close": "Cerrar",
-  "lb.label": "Imagen a tamaño completo"
+  "lb.label": "Imagen a tamaño completo",
+  "may.alt": "Aplicación May: la pantalla «Mi seguimiento» con comidas, sueño y curva de crecimiento, junto a la pantalla «Mensajería» con los expertos en salud."
 }
