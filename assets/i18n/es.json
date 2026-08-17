@@ -48,7 +48,7 @@
   "lex.f3": "Pagos con Stripe Connect y back office en Next.js",
   "lex.f4": "Infraestructura self-hosted en un VPS de OVH, monitorización con Prometheus / Grafana / Loki, CI/CD con GitHub Actions",
   "lex.f5": "RGPD by design",
-  "lex.alt": "Aplicación LEXARO: panel de un abogado con las solicitudes de sustitución en curso y sus estadísticas de audiencias.",
+  "lex.alt": "Aplicación LEXARO: el espacio de voluntariado de un abogado con sus estadísticas de audiencias, junto a la pantalla de solicitud de sustitución.",
   "meo.role": "Tech lead móvil",
   "meo.h": "La app del líder estadounidense del cuidado de gatos",
   "meo.lead": "Producto móvil retomado y después una v2 reconstruida desde cero dentro de un equipo internacional — junto a los desarrolladores backend y formando a un desarrollador Flutter júnior. Un marketplace de dos caras: los dueños que buscan cuidador por un lado, los cuidadores que gestionan su actividad por el otro.",

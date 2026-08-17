@@ -48,7 +48,7 @@
   "lex.f3": "Paiements Stripe Connect et back-office Next.js",
   "lex.f4": "Infra self-hosted sur VPS OVH, monitoring Prometheus / Grafana / Loki, CI/CD GitHub Actions",
   "lex.f5": "RGPD by design",
-  "lex.alt": "Application LEXARO : tableau de bord d’un avocat, avec ses demandes de substitution en cours et ses statistiques d’audience.",
+  "lex.alt": "Application LEXARO : l’espace volontaire d’un avocat avec ses statistiques d’audience, à côté de l’écran de demande de substitution.",
   "meo.role": "Tech lead mobile",
   "meo.h": "L’app du leader américain du cat-sitting",
   "meo.lead": "Produit mobile repris en main, puis v2 repartie de zéro au sein d’une équipe internationale — aux côtés des développeurs backend, et en formant un développeur Flutter junior. Une marketplace à deux faces : les propriétaires qui cherchent un sitter d’un côté, les sitters qui pilotent leur activité de l’autre.",
